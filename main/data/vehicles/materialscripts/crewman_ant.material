@@ -1,0 +1,65 @@
+material SOLID/TEX/56_1b.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture 56_1b.jpg
+			}
+		}
+	}
+}
+material SOLID/TEX/tank_helmet_back_lg.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tank_helmet_back_lg.jpg
+			}
+		}
+	}
+}
+material SOLID/TEX/tank41p.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tank41p.jpg
+			}
+		}
+	}
+}
+material SOLID/TEX/dan_face.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture dan_face.png
+			}
+		}
+	}
+}
+material SOLID/TEX/headofanton.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture headofanton.jpg
+			}
+		}
+	}
+}

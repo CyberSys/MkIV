@@ -1,0 +1,7 @@
+ARTIST ~turbosquid
+DESIGNATION 1-Level House
+NAME Stone House
+MESH_FILE house-stone.mesh
+LENGTH_M 10
+WIDTH_M 10
+AUTO_SCALE 1

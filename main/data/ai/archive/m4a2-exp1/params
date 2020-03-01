@@ -1,0 +1,11 @@
+#define GENEPOOLFILE "./data/ai/m4a2-genepool.txt"
+#define RUNCOUNTDOWNFILE "./data/ai/m4a2-populationRunCountdown.txt"
+#define GALOGFILE "./data/ai/logs/m4a2-log.txt"
+#define SUMMARYFILE "./data/ai/logs/m4a2-sum.txt"
+#define HALLOFFAMEFILE  "./data/ai/m4a2-HallOfFame.txt"
+#define EVOGRAPHFILE "./data/ai/m4a2-fitnessEvoGraph.xy"
+#define MUTATION_LEVEL 1 // max amount to modify gene by (0-mutationLevel)
+#define RUNS_TO_DO 30  // number of runs to do before evaluation of an individual is complete
+#define POP_SIZE_N 4 // number of children to breed for each generation
+#define PARENTS_P 2 // number of HallOfFame chromosomes to use to breed next generation
+#define RADIATION_LEVEL 20 // % chance that each gene is modified

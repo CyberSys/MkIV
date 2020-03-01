@@ -1,0 +1,180 @@
+material Material2_2_/SOLID/TEX/Material2_2_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_2_.jpg
+			}
+		}
+	}
+}
+material Material2_10_/SOLID/TEX/Material2_10_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_10_.jpg
+			}
+		}
+	}
+}
+material strecha_003_256/SOLID/TEX/strecha_003_256.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.494118 0.490196 0.486275
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture strecha_003_256.jpg
+			}
+		}
+	}
+}
+material Material2_1_/SOLID/TEX/Material2_1_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_1_.jpg
+			}
+		}
+	}
+}
+material Material2_6_/SOLID/TEX/Material2_6_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_6_.jpg
+			}
+		}
+	}
+}
+material Material2_9_/SOLID/TEX/Material2_9_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_9_.jpg
+			}
+		}
+	}
+}
+material Material2/SOLID/TEX/Material2.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2.jpg
+			}
+		}
+	}
+}
+material Material2_8_/SOLID/TEX/Material2_8_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_8_.jpg
+			}
+		}
+	}
+}
+material Material2_3_/SOLID/TEX/Material2_3_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_3_.jpg
+			}
+		}
+	}
+}
+material Material2_7_/SOLID/TEX/Material2_7_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_7_.jpg
+			}
+		}
+	}
+}
+material Material2_5_/SOLID/TEX/Material2_5_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_5_.jpg
+			}
+		}
+	}
+}
+material Material2_4_/SOLID/TEX/Material2_4_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2_4_.jpg
+			}
+		}
+	}
+}

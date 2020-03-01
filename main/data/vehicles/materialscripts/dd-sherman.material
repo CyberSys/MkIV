@@ -1,0 +1,126 @@
+material None_sherman16_turr.b/SOLID/TEX/sherman18_hull_extrasm4a2_hull.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture sherman18_hull_extrasm4a2_hull.png
+			}
+		}
+	}
+}
+material None_sherman16_turr.b/SOLID/TEX/sherman18_hull_sidesm4a2_hull.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture sherman18_hull_sidesm4a2_hull.png
+			}
+		}
+	}
+}
+material None_sherman16_turr.b/SOLID/TEX/sherman18_hull_bottomm4a2_hull.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture sherman18_hull_bottomm4a2_hull.png
+			}
+		}
+	}
+}
+material None_sherman16_turr.b/SOLID/TEX/sherman16_turr.blendm4a2_turr.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture sherman16_turr.blendm4a2_turr.png
+			}
+		}
+	}
+}
+material None_sherman16_turr.b/SOLID/TEX/canvas.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture canvas.jpg
+			}
+		}
+	}
+}
+material None_sherman16_turr.b/SOLID/TEX/sherman19_topm4a2_hull.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture sherman19_topm4a2_hull.png
+			}
+		}
+	}
+}
+material None_sherman16_turr.b/SOLID/TEX/sherman18_hull_frontm4a2_hull.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture sherman18_hull_frontm4a2_hull.png
+			}
+		}
+	}
+}
+material None_sherman16_turr.b/SOLID/TEX/tracks.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture tracks.png
+			}
+		}
+	}
+}
+material None_sherman16_turr.b/SOLID/TEX/sherman18_hull_wheelsm4a2_hull.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture sherman18_hull_wheelsm4a2_hull.png
+			}
+		}
+	}
+}

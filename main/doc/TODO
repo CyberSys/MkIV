@@ -1,0 +1,55 @@
+* upgrade to new Ogre 1.7 spec
+* move content to mkv engine (better audio, graphics etc) -editor programme first, then main programme
+* remake GUI as either a MyGUI collection or as a mkv overlay series
+* add crew specs to svn (eee)
+* NOTE: can cmake-qt-gui a static build of Ogre for a closed-source all-in-one build
+
+= Editor =
+* a "water" chooser dialogue with NONE, PLANE, HYDRAX chooser, and height setting option
+* make big 3D flags for VL, and add VL to sce file
+* add artist, polygons to Top-L of unit browser (for units, shrubs, buildings)
+* add crew, max occupants, jeeps somewhere
+* add weapon loadout details somewhere (table) - maybe a little graphic bargraph?
+* placing VLs
+* add a sce details chooser to editor - shields, water type etc (default shields to '1' and '2')
+* semi-random start locations (that you specify) for units like in Rebelstar
+
+= Scenery =
+* if scenery init below WATER_LINE then do not create as pagedgeo
+* Try Hydrax-SkyX - frame rate?
+* Try TreeLoader2D
+* Get Imposters to work
+* fix autoscale not working when using paging scenery
+* bridges w/ click on/off
+
+= AI =
+== Fuzzy Nav ==
+* add collision at 0.0 as 0.0
+* remove jittering - is there dumb code somewhere doing this? = yes (set to turn when target straight ahead)
+* use 3D distances to obstacles +{fuzzy sets, terrainmgr, vehicle, unithandler}
+* building radius should be * scale??
+
+== Other Experiment stuff ==
+* "Snail Trail" path recorder (for CSTN-075) with little manual squares/triangles
+* leave fuzzy errors and 2D issues in so can show problems with graph (take screenshots) - (for THESIS)
+
+== Scenery ==
+* Better nearest neighbour finder? -> wait until it becomes a perf issue
+* Grass/bushes
+* fiddle with pagesize, batchsize etc for best framerate
+* able to switch between water type
+* reintroduce semitrans water (no paged geo underwater)
+
+== Units ==
+* option to disable GFS - especially in Editor!
+* do unit culling as per house and tree culling - with option to set range in ini
+* allow units to occupy buildings as with vehicles
+* exhaust particles separate from dust - so can have exhaust when on water
+* diff fuzzy system for water and land and system has own gfs
+* interpolate at distances accuracy
+* special effects for hit that doesn't penetrate + "peeeoooww" or "duung"
+* units rebalanced near new craters (server, solo)
+* explosion sound effects
+* KV-2 death turret collapse or tip-over
+* remove idle sounds/anims for performance?
+

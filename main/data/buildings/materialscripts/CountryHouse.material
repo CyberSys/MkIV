@@ -1,0 +1,94 @@
+material Material/SOLID/TEX/countryHouseSide_large.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture countryHouseSide_large.jpg
+			}
+		}
+	}
+}
+material Material/SOLID/TEX/countryHouseStone.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture countryHouseStone.jpg
+			}
+		}
+	}
+}
+material Material/SOLID/TEX/countryHouse_wallbricks.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture countryHouse_wallbricks.jpg
+			}
+		}
+	}
+}
+material Material/SOLID/TEX/countryHouseSideDoor_large.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture countryHouseSideDoor_large.jpg
+			}
+		}
+	}
+}
+material Material/SOLID/TEX/countryHouseRoof_large.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture countryHouseRoof_large.jpg
+			}
+		}
+	}
+}
+material Material/SOLID/TEX/countryHouse_bricks.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture countryHouse_bricks.jpg
+			}
+		}
+	}
+}
+material Material/SOLID/TEX/pavement.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pavement.png
+			}
+		}
+	}
+}

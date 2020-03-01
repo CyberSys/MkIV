@@ -1,0 +1,56 @@
+material Material_7/SOLID/TEX/panzer3skin.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture panzer3skin.jpg
+			}
+		}
+	}
+}
+material Material_5/SOLID/TEX/panzer3skin.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture panzer3skin.jpg
+			}
+		}
+	}
+}
+material Material_3/SOLID/TEX/panzer3skin.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture panzer3skin.jpg
+			}
+		}
+	}
+}
+material Material_1/SOLID/TEX/panzer3skin.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture panzer3skin.jpg
+			}
+		}
+	}
+}

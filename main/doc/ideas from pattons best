@@ -1,0 +1,83 @@
+So - I need to come up with a complete, documented rule system.it should then be easier to programme
+
+* Simplify Actions into Phases
+* When selected, show what each tank can see (or thinks that it can see)
+  - perhaps mark 'spotted' and 'hidden' units
+
+for each tank:
+1 Spotting Phase
+* determine what crew can see by consulting spotting table for each crewman
+* mark all 'spotted' or 'hidden' units
+* determine specific unit type for any unit identified
+
+2 Orders Phase
+2.1 Hatches
+* open or close individual hatches
+2.2 Orders
+* place one crew action by each crewman
+2.1 Ammo Reload
+* mark ammo reload with type of ammo if firing main gun
+* also mark if ammo is to be drawn from the ready rack
+
+3 Crew Actions
+3.1 Tank Movement
+3.2 Main Gun Fire
+* Mark off ammo
+* Consult toHit() function for gun to determine if target is hit
+* Mark hits with AP or HE marker
+* Depending on Rate of Fire, fire gun again (and again).
+* Mark off ammo and any hits
+* After all possible shots fired; for each hit run toKill() function to determine knock-outs
+* record Victory Points for destruction of enemy units
+3.3 Tank MG Fire
+* Mark advancing fire and consult functions for ammo use and malfunctions
+* conduct fire against spotted targets with machine gun functions.
+* Mark off ammo used
+* record any Victory Points
+
+4 Misc Actions
+4.1 replace periscopes
+* mark off periscope replacement for any used
+* attempt to repair guns that have malfunctioned with gunRepair() function
+* fire 2" smoke mortar. Place smoke in target zone, and mark off one smoke bomb round
+* throw smoke grenade - place smoke marker on tank and mark off one grenade
+
+If tank is hit by enemy tank/spg/at fire
+* determine where tank is hit
+* determine if shell penetrates tank
+* if shell penetrates tank has been KO'd.
+* if KO'd determineIfTankExplodes()
+* If explosion entire crew is killed
+* Else determineCrewCasualties()
+* for each surviving crewman determine escape with bailOut() function
+* determine rescuesOfTrappedCrewman()
+* determine if tank burns with brewUp()
+* if burns all trapped crewmen are killed
+* if not all trapped crew are rescued with no wounds
+* record crew casualties and how tank was destroyed
+* remaining crew have bailed
+
+If tank hit by LW/MG/PSW/SPW units check for collateral damage
+* check for effect
+* if hit note any damage
+* and check for crewman hit
+
+Debriefing
+for each tank
+* check for rating improvement to surviving crew
+* record victory points from tank
+* multiply total by any scenario modifiers
+* determine promotion
+* determine decorations
+
+Crew
+- predefined types with pre-defined actions
+- perhaps 'change role' should be another action
+- if fire order and move order is Gunner or Driver more important? probably Driver
+3 Commander
+6 Gunner (maybe another action 'load gun' if no loader)
+5 Loader
+4 Driver
+1 Assistant
+2 Aux Gunner
+

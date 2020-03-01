@@ -1,0 +1,31 @@
+material blinn1SG/SOLID/TEX/lampGlass.png
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			emissive 0.2 0.6 0.0
+			texture_unit
+			{
+				texture lampGlass.png
+			}
+		}
+	}
+}
+material blinn1SG/SOLID/TEX/lampMetal.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture lampMetal.png
+			}
+		}
+	}
+}

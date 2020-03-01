@@ -1,0 +1,40 @@
+TS SPEED 0 & 0 = 2
+TS SPEED 0 & 1 = 4
+TS SPEED 0 & 2 = 5
+TS SPEED 1 & 0 = 0
+TS SPEED 1 & 1 = 3
+TS SPEED 1 & 2 = 4
+TS SPEED 2 & 0 = 0
+TS SPEED 2 & 1 = 5
+TS SPEED 2 & 2 = 5
+
+OA SPEED 0 & 0 = 0
+OA SPEED 0 & 1 = 0
+OA SPEED 0 & 2 = 3
+OA SPEED 1 & 0 = 0
+OA SPEED 1 & 1 = 3
+OA SPEED 1 & 2 = 5
+OA SPEED 2 & 0 = 0
+OA SPEED 2 & 1 = 0
+OA SPEED 2 & 2 = 2
+
+TS STEER 0 & 0 = 2
+TS STEER 0 & 1 = 2
+TS STEER 0 & 2 = 4
+TS STEER 1 & 0 = 3
+TS STEER 1 & 1 = 2
+TS STEER 1 & 2 = 5
+TS STEER 2 & 0 = 0
+TS STEER 2 & 1 = 0
+TS STEER 2 & 2 = 0
+
+OA STEER 0 & 0 = 3
+OA STEER 0 & 1 = 5
+OA STEER 0 & 2 = 5
+OA STEER 1 & 0 = 5
+OA STEER 1 & 1 = 3
+OA STEER 1 & 2 = 4
+OA STEER 2 & 0 = 2
+OA STEER 2 & 1 = 2
+OA STEER 2 & 2 = 3
+

@@ -1,0 +1,105 @@
+material topc/SOLID/TEX/klozwo.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture klozwo.jpg
+			}
+		}
+	}
+}
+material outhouse/SOLID/TEX/klozwo.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture klozwo.jpg
+			}
+		}
+	}
+}
+material t2/SOLID/TEX/klo1.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture klo1.jpg
+			}
+		}
+	}
+}
+material s/SOLID/TEX/klozwo.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture klozwo.jpg
+			}
+		}
+	}
+}
+material r/SOLID/TEX/klozwo.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture klozwo.jpg
+			}
+		}
+	}
+}
+material klos/SOLID/TEX/klozwo.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture klozwo.jpg
+			}
+		}
+	}
+}
+material f2/SOLID/TEX/klozwo.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1.000000 1.000000 1.000000
+			specular 0.500000 0.500000 0.500000 12.500000
+			texture_unit
+			{
+				texture klozwo.jpg
+			}
+		}
+	}
+}

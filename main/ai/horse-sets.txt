@@ -1,0 +1,31 @@
+# adjusted for 3m*3m grid resolution
+TS-DIST-NEA 0.0 25.0
+TS-DIST-MED 0.0 25.0 100.0 255.0
+TS-DIST-FAR 100.0 255.0
+
+# 0 to pi/8, to pi/4
+TS-ANGLE-NAR 0.15 0.3
+# pi/4 to 3pi/8
+TS-ANGLE-MID 0.15 0.3 0.3 0.45
+# pi/4 to 3pi/8 to inf
+TS-ANGLE-WID 0.3 0.45
+
+TS-ANGLE-THRESH 3.0
+
+# vslow slow med fast vfast wfast
+TS-SPEED-MIDS 0.0 0.2 0.4 0.6 0.8 1.0
+TS-ANGLE-MIDS 0.0 0.02 0.04 0.08 0.16 0.32 0.64
+
+OA-DIST-NEA 0.0 16.0
+OA-DIST-MED 0.0 16.0 36.0 64.0
+OA-DIST-FAR 36.0 64.0
+
+OA-ANGLE-NAR 0.35 0.58
+OA-ANGLE-MID 0.35 0.58 0.58 0.84
+OA-ANGLE-WID 0.58 0.84
+
+OA-ANGLE-THRESH 1.75
+
+OA-SPEED-MIDS 0.3 0.4 0.45 0.5 0.625 0.75
+# simply double the TS angles, so that we can nullify them and drive the same angle in opp direction!
+OA-ANGLE-MIDS 0.0 0.04 0.08 0.16 0.32 0.64 1.28

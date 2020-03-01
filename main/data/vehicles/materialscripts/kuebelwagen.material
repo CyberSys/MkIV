@@ -1,0 +1,30 @@
+material SOLID/TEX/kubalwagon_glass.tga/VertCol
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture dukw-window.png
+			}
+		}
+	}
+}
+material SOLID/TEX/kubalwagon_euro.tga/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture kubalwagon_euro.tga
+			}
+		}
+	}
+}

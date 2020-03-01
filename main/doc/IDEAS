@@ -1,0 +1,19 @@
+Visual Effects
+* terrain - paint - user-drawn arrows + network
+
+Audio Effects
+* ambient sounds
+* turret traverse crank/whir sounds and cannon pitch ratchet sound
+* consider cancelling "idle" sounds/animations and replacing with "vrroom" when start driving
+
+Art
+* AA and AT cannons
+* various mounted coastal guns
+* ruins (Roman, churches, walls, houses)
+* DD Sherman
+* infantry
+
+Console
+* chat window ideas for all modes:
+ "/setname"
+ "/bennyhill" (time comp 6.0 and play song)

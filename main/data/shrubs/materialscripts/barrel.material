@@ -1,0 +1,39 @@
+material barrel.001/SOLID/TEX/planks22.JPG
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture planks22.jpg
+			}
+		}
+	}
+}
+material barrel.002/SOLID/TEX/metbgr02.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture metbgr02.jpg
+			}
+		}
+	}
+}
+material Material/SOLID/TEX/planks02.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture planks02.jpg
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+ARTIST ~turbosquid, mod. Anton Gerdelan
+DESIGNATION Spooky Lamp (light off)
+NAME Spooky Lamp (light off)
+MESH_FILE spookyLamp.mesh
+LENGTH_M 3.0
+WIDTH_M 3.0
+AUTO_SCALE 1

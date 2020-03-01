@@ -1,0 +1,32 @@
+// Ogre overlay scripts
+mkiv/SavingOverlay
+{
+	zorder 500
+	// Stats block
+	container BorderPanel(mkiv/SavingPanel)
+	{
+		metrics_mode pixels
+		vert_align centre
+		horz_align centre
+		left -130 
+		top 0
+		width 260
+		height 22
+
+		element TextArea(mkiv/SavingTitle)
+		{
+			metrics_mode pixels
+			horz_align center
+			vert_align center
+			left -120
+			top -8
+			width 0
+			height 26
+			font_name Armalite
+			char_height 19
+			caption Saving Scenario, Stand By...
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+	}
+}

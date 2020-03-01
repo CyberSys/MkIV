@@ -1,0 +1,28 @@
+material SOLID/TEX/carrier_tracksAO.tga/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture carrier_tracksAO.tga
+			}
+		}
+	}
+}
+material SOLID/TEX/carrier_bodyAO.tga/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture carrier_bodyAO.tga
+			}
+		}
+	}
+}

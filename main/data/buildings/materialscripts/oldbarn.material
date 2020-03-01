@@ -1,0 +1,158 @@
+material dach
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture stroh_3.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material kamin
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture wall2.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material tor
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall11.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material s2
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall11.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material s4
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall11.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material s3
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall11.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material s
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall11.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material oldbarn
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall11.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material st
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall11.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material dach2
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture stroh_3.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}

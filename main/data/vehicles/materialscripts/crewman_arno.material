@@ -1,0 +1,14 @@
+
+material SOLID/TEX/arno.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture arno.png
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+material mkiv/ChatBlockBorder
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture ChatBorder.png
+			}
+		}
+	}
+}
+material mkiv/ChatBlockCenter
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check on
+
+			texture_unit
+			{
+				texture button_generic.bmp
+			}
+		}
+	}
+}
+
+material mkiv/ChatBreak
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture ChatBorder_Break.png
+			}
+		}
+	}
+}

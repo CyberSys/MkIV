@@ -1,0 +1,9 @@
+*RUN ONCE PER GENERATION (after one generation completed)
+
+input: compiledfitnessfile, N (population size or number of Batches)
+
+read file until N
+ sort individuals from generation in memory by fitness
+ append top individual's fitness+stderr to a graph.xy file so that we can track evolution of fitness over generations
+ append best P individuals from generation to HallOfFame.txt (need at least P in case this is the first generation)
+ 

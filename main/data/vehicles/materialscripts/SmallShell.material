@@ -1,0 +1,14 @@
+material SOLID/TEX/shell.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			diffuse vertexcolour
+			texture_unit
+			{
+				texture shell.png
+			}
+		}
+	}
+}

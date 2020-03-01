@@ -1,0 +1,7 @@
+ARTIST ~turbosquid
+DESIGNATION Church
+NAME Orthadox Church
+MESH_FILE orthchurch.mesh
+LENGTH_M 20.0
+WIDTH_M 20.0
+AUTO_SCALE 1

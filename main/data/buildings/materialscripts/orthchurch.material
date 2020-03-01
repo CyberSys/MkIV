@@ -1,0 +1,18 @@
+material kosciol
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture kosciol.jpg
+				tex_address_mode wrap
+			}
+		}
+	}
+}

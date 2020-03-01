@@ -1,0 +1,8 @@
+ARTIST www.mrmof.com, mod. Anton Gerdelan
+POLYGONS 562
+DESIGNATION Barbed Wire
+NAME roll of wire
+MESH_FILE wire.mesh
+LENGTH_M 0.7
+WIDTH_M 3
+AUTO_SCALE 1

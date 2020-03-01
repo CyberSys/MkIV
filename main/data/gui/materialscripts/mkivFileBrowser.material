@@ -1,0 +1,34 @@
+material mkiv/FileBrowserBackground
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture WindowFill.png
+			}
+		}
+	}
+}
+material mkiv/FileBrowserEntry
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check on
+
+			texture_unit
+			{
+				texture button_generic.bmp
+			}
+		}
+	}
+}

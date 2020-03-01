@@ -1,0 +1,7 @@
+ARTIST ~turbosquid
+DESIGNATION Gravestone
+NAME Gravestone
+MESH_FILE grave.mesh
+LENGTH_M 2.0
+WIDTH_M 2.0
+AUTO_SCALE 1

@@ -1,0 +1,230 @@
+// Ogre overlay scripts
+mkiv/UnitPanel
+{
+	zorder 500
+	// Stats block
+	container BorderPanel(mkiv/UnitPanel)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		horz_align right
+		left -205
+		top -205
+		width 200
+		height 200
+		material mkiv/UnitPanel
+
+		element TextArea(mkiv/UnitStat0)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 30
+			top 5
+			width 90
+			height 20
+			font_name Gunplay
+			char_height 20
+			caption PzKpfw VI Ausf. B
+			colour_top 0.9 0.8 0.2
+			colour_bottom 0.9 0.8 0.2
+		}
+		element TextArea(mkiv/UnitStat0B)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 30
+			top 5
+			width 90
+			height 20
+			font_name Gunplay
+			char_height 20
+			caption PzKpfw VI Ausf. B
+			colour_top 0.4 0.8 0
+			colour_bottom 0.4 0.8 0
+		}
+		element TextArea(mkiv/UnitStat1)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 30
+			top 30
+			width 90
+			height 20
+			font_name Deutsch
+			char_height 20
+			caption Koenigstiger
+			colour_top 0.9 0.8 0.2
+			colour_bottom 0.9 0.8 0.2
+		}
+		element TextArea(mkiv/UnitStat1B)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 30
+			top 30
+			width 90
+			height 20
+			font_name Armalite
+			char_height 20
+			caption Sherman
+			colour_top 0.4 0.8 0
+			colour_bottom 0.4 0.8 0
+		}
+		element TextArea(mkiv/UnitStat2)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 55
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Action:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat3)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 71
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Speed:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat4)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 87
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Target Range:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat5)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 103
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Crewman 1:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat6)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 118
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Crewman 2:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat7)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 133
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Crewman 3:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat8)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 148
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Crewman 4:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat9)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 163
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Crewman 5:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat10)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 178
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Crewman 6:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/UnitStat11)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 193
+			width 90
+			height 30
+			font_name Gunplay
+			char_height 16
+			caption Crewman 7:
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+}
+
+

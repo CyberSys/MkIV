@@ -1,0 +1,68 @@
+material mkiv/Button_Lit
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture LitButton.png
+			}
+		}
+	}
+}
+material mkiv/Button_Back
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check on
+
+			texture_unit
+			{
+				texture button_generic.bmp
+			}
+		}
+	}
+}
+material mkiv/Button_Selected
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check on
+
+			texture_unit
+			{
+				texture button_generic_hi.bmp
+			}
+		}
+	}
+}
+material mkiv/ButtonBorder
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check on
+
+			texture_unit
+			{
+				texture ChatBorder_Break.png
+			}
+		}
+	}
+}

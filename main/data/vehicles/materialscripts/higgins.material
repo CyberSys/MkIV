@@ -1,0 +1,28 @@
+material material_9/SOLID/TEX/higginsbody.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.500000 0.500000 0.500000 125
+			texture_unit
+			{
+				texture higginsbody.png
+			}
+		}
+	}
+}
+material material_8/SOLID/TEX/higginsramp.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.500000 0.500000 0.500000 125
+			texture_unit
+			{
+				texture higginsramp.png
+			}
+		}
+	}
+}

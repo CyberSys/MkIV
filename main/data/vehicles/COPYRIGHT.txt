@@ -1,0 +1,13 @@
+crewman_sov_tank_ant - Anton Gerdelan 2008
+crewman_sov_tank_arno - Anton Gerdelan 2008
+crewman_sov_tank_dan - Anton Gerdelan 2008
+crewman_sov_tank_guy - Anton Gerdelan 2008
+crewman_sov_tank_ken - Anton Gerdelan 2008
+jagdp - animations, armature, specifications, assembly, conversion, and special effects by Anton Gerdelan 2009, original model by "kodo_day" (http://www.turbosquid.com/3d-models/destroyer-tank-max/348107)
+kv-2 - audio, animations, armature, specifications, assembly, conversion, special effects, and colour by Anton Gerdelan 2009, original model by "kodo_day" (http://www.turbosquid.com/FullPreview/Index.cfm/ID/306891)
+m4a2 - Anton Gerdelan 2007
+panzer3 - Anton Gerdelan 2004
+SmallShell - Anton Gerdelan 2007
+t-28 - Anton Gerdelan 2008
+t-70 - audio, animations, armature, specifications, assembly, conversion, and special effects by Anton Gerdelan 2009, original model by "kodo_day" (http://www.turbosquid.com/3d-models/3dsmax-t-70/306256)
+

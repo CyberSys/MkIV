@@ -1,0 +1,14 @@
+material material_13/SOLID/TEX/nebel.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.500000 0.500000 0.500000 120
+			texture_unit
+			{
+				texture nebel.png
+			}
+		}
+	}
+}

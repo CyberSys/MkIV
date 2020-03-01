@@ -1,0 +1,24 @@
+#ARTIST
+DESIGNATION ninja
+NICKNAME ninja
+MESHFILE ninja.mesh
+UNIT_TYPE INFANTRY
+ANIM_IDLE Idle1
+ANIM_MOVE Walk
+ANIM_DEATH Death1
+CANNON_ANIM_FIRE Attack1
+#SOUND_IDLE crusader_idle.wav
+#SOUND_MOVE churchill_drive.wav
+FUZZY_SETS ai/walker-sets.txt
+FUZZY_RULES ai/walker-rules.txt
+HULL_LENGTH_M 1.9
+AUTO_SCALE 1
+FULL_TURN_TIME_S 1
+MAX_ROAD_KPH 12
+MAX_OFFROAD_KPH 8
+MAX_SLOPE_DEG 80
+ZERO_TO_TOP_SPEED_S 2
+
+DESCRIPTION_START
+The ninja is used as a stand-in for infantry.
+DESCRIPTION_END

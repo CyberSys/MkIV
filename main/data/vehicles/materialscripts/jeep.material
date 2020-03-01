@@ -1,0 +1,112 @@
+material fuel_tank/SOLID/TEX/fuel_tank.png
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture fuel_tank.png
+			}
+		}
+	}
+}
+material windshield_glass/SOLID/TEX/windshield.png
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture windshield.png
+			}
+		}
+	}
+}
+material fender/SOLID/TEX/fender.png
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture fender.png
+			}
+		}
+	}
+}
+material seats/SOLID/TEX/seats.png
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture seats.png
+			}
+		}
+	}
+}
+material car_body/SOLID/TEX/texture.png
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture texture.png
+			}
+		}
+	}
+}
+material windshield_frame/SOLID/TEX/windshield_frame.png
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture windshield_frame.png
+			}
+		}
+	}
+}
+material steering_wheel/SOLID/TEX/steering_wheel.png
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture steering_wheel.png
+			}
+		}
+	}
+}
+material wheel/SOLID/TEX/tire_texture.png
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture tire_texture.png
+			}
+		}
+	}
+}

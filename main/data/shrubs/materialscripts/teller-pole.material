@@ -1,0 +1,13 @@
+material SOLID/TEX/19012.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture 19012.jpg
+			}
+		}
+	}
+}

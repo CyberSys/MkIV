@@ -1,0 +1,7 @@
+ARTIST Paged Geometry plugin
+DESIGNATION Pine1
+NAME Pine
+MESH_FILE Pine1.mesh
+LENGTH_M 4.0
+WIDTH_M 4.0
+AUTO_SCALE 1

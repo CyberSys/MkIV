@@ -1,0 +1,8 @@
+ARTIST www.mrmof.com, mod. Anton Gerdelan
+POLYGONS 800
+DESIGNATION Sandbags
+NAME Sandbags
+MESH_FILE bags.mesh
+LENGTH_M 1
+WIDTH_M 5
+AUTO_SCALE 1

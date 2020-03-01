@@ -1,0 +1,26 @@
+material Material/SOLID/TEX/pavement.png/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pavement.png
+			}
+		}
+	}
+}
+material Material/SOLID/TEX/countryHouseStone.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture countryHouseStone.jpg
+			}
+		}
+	}
+}

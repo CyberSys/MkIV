@@ -1,0 +1,12 @@
+../src/units/Vehicle.cpp:			mInRangeOfTarget = true; // HACK (TODO UnitController should tell us this between every ~15 frames)
+../src/units/Vehicle.cpp:	// HACK - removed a /1000
+../src/units/Vehicle.cpp:// HACK - fix for when actually have turret (as below)
+../src/units/Vehicle.cpp:	int turretIndex = 0; // HACK this should be a parameter of the method TODO
+../src/units/Vehicle.cpp:		// HACK: at this stage both tracks are the same speed (I dont have a turning track speed formula yet)
+../src/units/Vehicle.cpp:		g.mAudioHandler.StopSound(&mDriveSoundChannel);	// HACK: A POINTER!! FIX THIS!
+../src/units/Projectile.cpp://	pos.y = pos.y + 5.0f;	// HACK add 5m height until can get actual muzzle velocity
+../src/units/UnitHandler.cpp:	// TEMP HACK iterate through projectile hash
+../src/units/UnitHandler.cpp:				float muzzleVel = 0.00005f; // HACK exchange hardcoded velocity with dynamic one from .def
+../src/units/UnitHandler.cpp:		// HACK: lots of segfault opportunities here - should check each returned pointer for validity
+../src/scenery/TerrainHandler.cpp:	// TEMP HACK:
+../src/scenery/TerrainHandler.cpp:	// tEMP HACK:

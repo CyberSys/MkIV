@@ -1,0 +1,11 @@
+set title "Gene Mutation Probablity (r) Effect on Fitness"
+set xlabel "Generation Number"
+set ylabel "Fitness Level"
+set yrange [0:2]
+set xrange [0:50]
+plot "r0.xy" title "r=0" with lines lw 2, \
+"r10.xy" title "r=10" with lines lw 2, \
+"r20.xy" title "r=20" with lines lw 2, \
+"r40.xy" title "r=40" with lines lw 2 lt 9, \
+"r60.xy" title "r=60" with lines lw 2, \
+"r80.xy" title "r=80" with lines lw 2 lt 7

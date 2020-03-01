@@ -1,0 +1,23 @@
+Compiling from Source on Linux
+
+Prerequisites not in Ubuntu repository:
+* Ogre3D source code http://www.ogre3d.org/
+* Fmod Ex http://www.fmod.org/
+
+=1. Install prerequisites.=
+sudo apt-get install subversion libois-dev nvidia-cg-toolkit cmake checkinstall
+* get latest ogre3d source code, cmake, checkinstall
+* Download * install latest fmod ex from http://www.fmod.org/
+* make a link (alias) from installed version to /usr/local/lib/libfmodex.so:
+sudo ln -s sudo ln -s /usr/local/lib/libfmodex-VERSION.so /usr/local/lib/libfmodex.so
+
+=2. Check out project trunk from subversion repository:=
+svn co https://markiv.svn.sourceforge.net/svnroot/markiv/trunk/main markiv
+
+=3. Compile MarkIV =
+cd markiv/Release
+make all
+
+=4. Troubleshooting=
+* "can't find Ogre.h": check all the -I paths in all of the Release subdir.mk files. Very tedious.
+* library linking complaints: check the -L paths in Release/objects.mk

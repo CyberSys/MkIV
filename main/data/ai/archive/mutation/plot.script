@@ -1,0 +1,11 @@
+set title "Mutation Range (m) Effect on Fitness"
+set xlabel "Generation Number"
+set ylabel "Fitness Level"
+set yrange [0:2]
+set xrange [0:50]
+plot "fitm1.xy" title "m=1" with lines lw 2, \
+"fitm2.xy" title "m=2" with lines lw 2, \
+"fitm3.xy" title "m=3" with lines lw 2 lt 7, \
+"fitm4.xy" title "m=4" with lines lw 2, \
+"fitm5.xy" title "m=5" with lines lw 2 lt 9, \
+"fitm6.xy" title "m=6" with lines lw 2 lt 3

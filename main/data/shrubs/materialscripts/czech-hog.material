@@ -1,0 +1,26 @@
+material SOLID/TEX/cracked-concrete.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture cracked-concrete.jpg
+			}
+		}
+	}
+}
+material SOLID/TEX/bolted-plate.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture bolted-plate.jpg
+			}
+		}
+	}
+}

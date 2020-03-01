@@ -1,0 +1,8 @@
+ARTIST ~turbosquid
+TYPE single
+DESIGNATION Fountain
+NAME Fountain
+MESH_FILE fountain.mesh
+LENGTH_M 7
+WIDTH_M 7
+AUTO_SCALE 1

@@ -1,0 +1,728 @@
+=14 May 2010
+* runs with Ogre 1.7.0 (with some issues)
+* commented out depthSort line in MeshBrowser (3D node) as function not in 1.7
+* got mkiv to compile under Ogre 1.7.0
+* upgraded some old Ogre function calls to 1.7.0 spec
+* upgraded PagedGeometry to newest release (supporting Ogre 1.7.0)
+=13 May 2010
+* fiddled with some ETM vectors to make them std::vector as to not confuse ogre 1.7
+* commented out buggy LobbyMenu::free() code (Ogre ::~Overlay() crashes)
+* upgraded linux install docs
+* replaced -I and -L paths in Release sub directories from /usr/local/lib&include to /usr/lib&include for OGRE and OIS
+=25 Mar 2010
+* audio tweaked
+=1 Mar 2010 = (v. 2010.03.01)
+* obtained 250 generation evolved m4a2 rules and applied generally
+=16 Feb 2010 =
+* changed stuck penalty from 1.0 fitness to 10.0 fitness
+* fixed minutes error in time
+* upgraded to new GFS toolchain standard
+* found and fixed scenery collision bug (non-detection)
+* added GFS gui to bottom of screen
+=18 Jan 2010 (v. 2010.01.18) =
+* removed all old scenarios and maps
+* modified size of some shrubs and buildings
+* version number convention changed to date in US abbreviated format
+=14 Jan 2010 =
+* fixed the long-standing scale-to-size bug
+
+Alpha 0.85
+
+	fixed a bug saving scenarios - water plane etc were taken from a widget's sce and not the terrain handler's sce (weird...)
+
+Alpha 0.84 (Skafith): 9 Dec 2009
+
+	basic enemy unit AI (now attacks nearest visible target) not optimised so very slow
+	fixed audio freeing bug (was being deleted too early)
+	fixed water save/load bug (free() had and "=" in stead of a "==")
+	audio can now be properly disabled (no more annoying printouts during runtime)
+	some neat printing macros
+	audio handler no longer a "globals" member - is now a singleton (so don't have to rebuild entire project if it's modified)
+	pre-loading of UI sounds in audio handler
+	rebuilt fmod audio handler, cleaned up, removed lots of dodgy scenenode pointers, and stl rubbish
+	removed dummy audio handler and old fmod audio handler
+	can now attach units in editor, and these attachments are loaded on .sce load
+	fixed some overlay freeing bugs
+	main menu music
+	button rollover and click sounds (not done nicely yet)
+	brought Z-order of tooltip (infoboxwidgets) to extreme front of screen
+	tooltip changes to LHS of mouse pointer if on RHS of screen
+	water chooser dialogue
+	semi-transparent water plane restored
+	water button in editor, but no chooser dialogue yet
+	water type and level loaded from SCE file
+	water type saved to SCE
+	can now turn on/off water plane
+	shrubs created below waterline are now not paged - provided that water has been added first!
+	bugfix - extra shrub,building loaded when scenario loaded
+	bugfix - extra vehicle loaded at 500,150,0
+	bugfix - scenario menu doesn't work until new scenario saved for some reason - maybe related to the shrubs list bug
+	bugfix - unithandler not freed properly when editor exits (i.e. vehicle nodes are not deleted on exit) - you can see them on next load
+	bugfix - load shrubs list is empty if #shrubs = exactly one page limit - maths error
+	bugfix -  once brush size buttons in editor are hidden once they are not able to be shown again - was due to earlier failing editor components
+	tooltip widget in editor now follows mouse cursor
+	better unit descriptions and stats for vehicles
+	new editor buttons for shrub and vehicle placement options
+	disappearing editor buttons bug fixed
+	units are rotated by 180 degrees  when placed if they are on force 1
+	can chose force for unit placement in editor
+	can choose to place forests of various sizes of shrub in editor
+	shrubs randomly rotated on placement in editor
+	removed lots of old redundant editor code (was pre-loading firtree and countryhouse)
+	reintroduced shrub culling and building culling algorithm (for unpaged geometry)
+	editor can now manipulate shrubs properly again
+	can now turn off paged geometry and revert to previous model (for systems that don't support shaders and also for editor so that you select/move/delete the geometry)
+	light vehicles can now be stowed on ships
+	infantry can now "board" vehicles
+	editor now places ships on surface
+	fixed default units bug (they were always being loaded)
+	better shrub selection etc
+	better unit editor module
+	jeep added as vehicle
+	can now add, delete, rotate, move units in editor
+	unit yaw now loaded from unit list file
+	more stuff saved to .sce file, but not enough
+	saving scenario now saves unit lists
+	loading sce in editor loads units in
+	can now add units to scenario
+	massively upgraded unit browser in editor
+	wake emitters on vehicles in water
+	amphibian speed changes based on water or land
+	noticed that can't add any more text fields dynamically to overlay (ogre bug - it moves elements' memory around so that you lose the pointer)
+	description added to unit browser in editor
+	removed timer and replaced with 'stuck counter' - if agents are too slow for too many frames (about 4 seconds worth) then they are 'stuck' and the run is cancelled. they are now adaptive as the whole generation can be cycled in about 8 minutes on one agent - so they can adapt to stuckness in real-time!
+	timer added to run logger (and timeout)
+	MEGABUG HUNTED DOWN AND SOLVED!!!! Axis Aligned Bounding Box complaint - was a fuzzy set not being reset to 0 (d'oh!)
+	rebuilt ogre in normal mode - but took out m4a2 model just in case that was the reason
+	built ogre with AxisAligned box assert turned off but had issues with new fuzzy rules after that???
+	New regrapher tool to make graphs only improve (use hall of fame data only)
+	Working Dynamic FGS and external pipeline. Automated.
+
+Alpha 0.83 (Virfir): 11 Sep 09
+
+	Fog changed to exponential
+	GA tools upgrade
+	Fitness log summariser programme (averages, and writes to a file with stderr)
+	Specific on/off & filename per vehicle spec logging (maybe it should be per fuzzyset+spec combo or per unit, or include set id??)
+	Amphibious vehicles simulated
+	terrain lightmap applied to shrubs on sce load
+	shrub handling more efficient and better bounding radii (*size scale)
+	paged geometry working
+	some new "useful functions" and cleanup
+	Attempted a camera wrapper (failure), removed it again
+	Added Fog shaders for terrain
+	String termination for super-long filenames
+	Shields for unused forces hidden (but will they come back when we need them...)
+	Fixed illegal characters bugs
+	Fixed .sce bugs
+	Can specify force shield images in scenario file
+	Fixed previous "camera look at" issues from scenario load
+	Music is now loaded from each .sce file
+	Filename for .sce is no longer user-specified (in file saver widget)
+	Fixed file saver widget that was mixing up MapName with FileName
+	scenario details considerably simplified
+	force details scanned (and written) differently
+
+Alpha 0.82 (Skirfir): 6 Aug 09
+	
+	accuracy can be specified in vehicle spec files
+	beach defence turrets
+	fixed animation bugs between drive-fire
+	semi-simulated friction (with variable factor) added to vehicle for steering (to reduce jerkiness of fuzzy)
+	initial logging of GA agent data
+	prototype for dd-sherman
+	landing craft ramps open upon beaching
+	animated landing craft
+	landing craft vehicle type (floats and beaches itself)
+	shrub distance cull re-enabled (450-500m) =>> doubled framerate on easyred map
+	40's swing background music woah!
+	sherman smoke and dust effects
+	incredibly loud sherman audio
+	imposed a linear physics limit on acceleration. can be set in spec file for units
+	imposed physics limit on steering (based on unit FULL_TURN_TIME)
+	sub-functioned away lots of bits from unit::drive
+	omaha scenery: beach ramp trap
+	found bug - FULL_TURN_TIME not being respected
+	omaha scenery: pillbox, belgian gate, czech hedgehog, Teller mine poles
+	added fuzzy oa cut-off distance (now required as no waypoints)
+	removed mal-functioning nearest-neighbour angle thresholds from fuzzy
+	added loads of new scenery (free stuff from turbosquid)
+	took out all grid-searches and overlays
+	finally fixed ogre bug (was out of date -dev packages)
+	ogre bug compiling 1.6.1, rolling back to 1.6.0
+	rolled-back to previous version of ogre (1.6.1)
+		http://www.ogre3d.org/forums/viewtopic.php?f=2&t=50092&start=0
+	added a #define in globals.h to exclude all Overlay::~Overlay() (Ogre bug) code from build
+	removed raknet from build and created dummy network code
+	made programme incredibly slow - not sure how
+	introduced some fatal errors
+	replaced worldAAB from Node (unreliable) with BoundingBox + scale + offset from own code
+	many pathfinding bugs solved
+	many neighbourhood bugs solved
+	lots of old TODOs ticked off, deleted some crap jobs, added some todos to the list on sourceforge
+	fixed file-reading problems on Windows (dumb error where a slash was the wrong way around if there was a 'b' character after it...)
+	nearest neighbour searches reduced to grid cells within fuzzy range
+	separated mapping of dynamic and static obstacles - better performance
+	added hooks for water and terrain slope calc in grid map
+	added hooks for more efficient 'nearest neighbour' searching for fuzzy in grid map
+	revised 'grid' map of terrain - now contains lots of meta-data
+	darkened gui overlay - more occlusive transparency
+	water plane
+	genetic algorithm mutator for training module
+	dynamic training module - multi-agent parallel training enabled
+	new scenery: crate, old barn, orthadox church, well
+	timeout fuzzy navtest re-enabled
+	navtest infrastructure supports input of fuzzy rule files
+	made a branch into a complete zombie shoot-em-up game with lighting, music etc
+	music support
+	navmode now uses scenario's unit list
+	better navtest simulation (can support multiple units)
+	can now specify a custom settings.ini file at command line
+	fixed a bug in scenario loader in solo mode always using dogsofwar.sce
+	fixed fuzzy graph display/sets/scale etc (still a bit hard-coded in unitM)
+	better fuzzy driving systems for virtual dublin
+	re-integrated audio
+
+Pre-Alpha 0.77 (Dori): 13 Mar 09
+
+	vehicle height now set to node y position
+	removed balance() code
+	new inactive vehicle hash
+	spawn grabs hidden vehicles first
+	traffic hidden rather than removed from sgraph on "death"
+	all vehicles pre-loaded
+	replaced extrapolation method for loading roads with literal method
+	saving node pos with more accuracy (3dp)
+	change road lane size to match diff scale of vdub roads and metro scale
+	reduce vehicle size to match metro buildings
+	found and avoided an OGRE error (with some yaw rotation angles)
+	removed fmod wrapper as had bugs (was accessing dead scenenodes)
+	removed ET terrain from sim (still in editor)
+	scaled some vehicles to suit
+	scaled ground plane to metropolis scale (smaller than 1.0=1m)
+	some metropolis buildings in
+	more virt dub models in to build city
+	fixed a mem leak freeing vehicles - swivelnode was not being freed
+	read fuzzy rules from file
+	fixed lots of bugs in lane route-planning
+	doubled 'near enough to target' threshold to sqrt(2.0m)
+	fitness function and a "game score" calculated and appended to run output
+	crash heuristic recorded and appended to run output file
+	timed-out runs are saved with "-1" time (= "did not complete")
+	can now specify a time limit for simulation runs from command line
+	navigation results are appended to a file
+	simulation exits on navtest completion and spits out time to command line output/
+	navtest destination must now be set at command line
+	added 3D model for target destination (for navtest scenarios)
+	added camera target to scenario file (not working properly yet)
+	scenario file format changed for camera position
+	more efficient scenario def code
+
+Pre-Alpha 0.75 (Hlevang) and 0.76 (Gloin): Feb 17 2009
+
+	imporved nearest obstacle chooser (only those ahead of vehicle chosen from)
+	improved collision detection system (bounding box intersection instead of bounding sphere)
+	removed double-up of own size calc in dist to navtarget
+	new crash severity heuristic (meters of penetration)
+	made crash detector over-sensitive
+	target seeking speed now uses distance to final waypoint as input, not next waypoint - fixes sawtooth problem AND unrealistic vehicle speed problem
+	fixed a bug where vehicle only considered next waypoint (not last waypoint) to see if close enough to destination and stop driving
+	obstacle distances and target distances now also include size of vehicle
+	fixed obstacle-vehicle distances to reflect size of building (maybe should also reflect size of vehicle)
+	path for a* displayed as a strip (partially evauluated path)
+	fixed Obstacle Avoidance problems
+	fuzzy-A* now working
+	scenarios trees and buildings stored in an Obstacle Map for A* computation
+	nav mode only loads one vehicle and auto-specifies waypoint
+	command line option to specify scenario to load
+	specify 'navigation training' mode at command line
+	command line option to specify no graphics chooser
+	fixed some errors in fuzzy logic set membership functions (downward slopes were being calculated as upward slopes)
+	saves crash graph to file with F3
+	can get version and other details at command line
+	can give fuzzy set file at command line
+	reads fuzzy set def from files
+	crash detection graph
+	crude crash detection system
+	fixed time for graphs when paused
+	cleanup of update() unithandler function
+	improved fuzzy input sets ranges
+	reset vehicle speed to zero when stopped (for nicer graphs)
+	extract radius size of shrubs and buildings for better nav calculations
+	removed hatch animations as ogre does not do blending yet
+	hatches properly loaded from spec file
+	added 3d models xml to svn
+	changed crew format in spec files
+	removed hacked-up crew members for now
+	new hatch open/close animation and system (press b)
+	found animation problems (was Blender export script inserting rubbish tracks)
+	saving steering plots to file on F2 as well
+	2nd column for plots on screen
+	defuzzified steering plot
+	fuzzy plots update in real-time
+	2nd set of fuzzy plots
+	test data and new fuzzy plots
+	reduced graph size to fit more on screen
+	fuzzy graphs displayed
+	gnuplot exporter working
+	CSV exporter working
+
+Pre-Alpha 0.74 (Haugspori): 26 Sep 08
+
+	now also saves to gnuplot-readable format on F3
+	graphs hide and unhide properly on F2
+	evenly separate graph widgets independent of screen resolution
+	found some unused variables in code base and killed them
+	scales and notches on graph axis, with axis lines
+	refit graph subwindow size
+	labels (values) on graph axis
+	t-28 hatch error fixed
+	t-28 max speed set to 10 times faster for testing (it was too slow)
+	Real-time line graph with streaming data built into system
+	captures velocity of selected vehicle
+	Prototype of line graph widget for scientific-type outputs
+	Found major bug and fixed it - the 'unit panel' was based on a 
+	hard-loaded overlay panel and would crash if loaded twice, so 
+	i've removed it from the loading queue and it will be replaced with 
+	better panels
+	New balancing is now dynamic also which fixes loaded scenarios that have incorrectly placed buildings
+	Buildings are balanced on terrain by their lowest corner - looks slightly better than prev method
+	"Are you sure you want to quit?" popups
+	saver prompts user if file already exists
+	adds .sce extension to filenames where the user doesn't enter one
+	put currently loaded sce details into saver as default fields
+	Yes/No widget linked to scenario saver
+	popup Yes/No confirm dialogue widget
+	working scenario saving system (still need to fix tree and building balancing on load)
+	new scenario-saver widget in scenario editor with editable fields
+	new text-entry widget (for saving scenario details such as file name and title in the scenario editor)
+	improved default shrub loading so it doesn't crash if shrub file can not be found or not specified in sce
+	attempt at improving building balancing in editor
+
+Pre-Alpha 0.73 (Hor): 13 Sep 08
+
+	Added separate Time variables for visualisation layer and simulation layer time so can pause or compress time in sim but still move camera etc
+	Pause button implemented (no gui indicator yet tho - could use debug o/p)
+	Fuzzy Navigation working (still only 2D) and avoiding most obstacles (still needs tuning)
+	linked cycle of panel with 3d lines
+	3D lines indicate destination and obstacle for selected unit
+	more info in unit panel (although still need streaming graph panels as it's over-complex)
+	new crew xml files
+	new crewman model for t-28
+	unit stats panel now toggles between categories with 'Z' key (later I'll add a GUI button to switch)
+	modified (evened out) fuzzy input set and output set vertex definitions
+	introduced full fuzzy logic nav control for tanks (although still in testing stage)
+
+Pre-Alpha 0.72 (Dolgthrasir): 7 Jul 08
+
+	prototype cannon pitch aiming (currently instant) working perfectly
+	temporarily disabled gravity on projectiles
+	artillery calculations printed into GUI and working
+	implemented fuzzy obstacle avoidence module (very buggy and needs a LOT of tuning)
+	implemented first attempt at Fuzzy Logic-based navigation (buggy) 
+	also tested rocket trails attached to projectiles, and they worked perfectly
+	explosion effect prototype (for when projectiles hit terrain) - needs affector for gravity
+	reduced resolution of lightmap to increase editor performance
+	doubled size of editor brushes to cope with new resolution
+	also up-scaled all existing scenarios to new resolution (with a few little glitches)
+	doubled resolution of terrain (from 129*129 to 257*257) to make shell-holes smaller
+	== revision 181 ==
+	shells paint blast scorch marks on terrain
+	shells deform terrain!
+		fixed movement anim of t-28
+	accidentally broke movement and track animations of T-28
+	re-enabled and significantly upgraded firing audio. now supports multiple cannon per vehicle, each with different sound file
+	new cannon recoil animation for T-28
+	cannon (recoil) animations re-implemented and extended for multiple cannon
+		made smoke slower to rise so that it lags behind tank more (looks better)
+	projectile fires from bone at correct orientation (thanks to Bren)
+
+Pre-Alpha 0.71 (Draupnir): 21 Mar 08
+
+	Added rescanner to scen editor so can reload/resave in same session
+	Scenario saver now creates a (limited options) .sce
+	Scenario saving function re-implemented (at the moment GUI only lets u save over the top of old scenarios)
+	Wrote new compile instructions
+	Loaded a lot more details from vehicle spec files with regards to bones, guns and crew layout
+	Added cabin smoke - delay after firing before aiming can recommence
+	Shuffled job allocation to involve more crew at once
+	Overhauled crew job management system - multiple crew can assist with different jobs
+	Rebuilt aiming mechanism based on bones
+ 	Rebuilt projectile system based on muzzle bones rather than nodes - still not perfected
+	Discoverd problems with panzer3 model orientation versus armatures
+	Finish turret traverse prototype - support for aux turrets
+	Improved driving/idling effects/sound start/stop
+	Hacked up a new turret traverse prototype
+	Changed vehicle structure to support multiple turrets
+	Add vehicle default constructor, cleaned up initialisation process, cleaned up validation code
+	Siginificant clean-up of Vehicle code (removed ~100 lines of redundant code)
+	Totally revamped aiming/firing process
+	Replaced single vehicle 'current action' with individual crew member actions
+	Prototype crew allocation model
+	Moved vehicle behaviour control from Unit Handler to inside Vehicle's own control
+
+Pre-Alpha 0.70 (Eikinskjaldi): 12 Feb 2008
+
+	Dust effects start/stop when tank moving/idle
+	Dust particles retextured
+	Dust effects start in designated places
+	Redesigned spec memory handling to reset all vehicle specs before new scenario
+	Testing stop/start animated textures
+	Testing moving tracks on T-28
+	Dust and smoke now go upwards in the world sense
+	New Dust particle
+	Particle test code
+	Idle audio now plays when tank enters any idling phase
+	Movement audio support now (re)added
+	Fixed scale of rotation speed (was a factor of a million times too fast)
+	Enabled audio playback for idling tanks
+	Cleaned up audio code for vehicles
+	Cut out all sorts of old 'turret' code and cleaned up animation structure (a bit)
+	found out why Vehicle is returning true when hasAnim should be false - was using wrong variable for hasAudio
+	Fixed bug in SEditor where scenarios were not loading - was using GetMapName() instead of GetFilename()
+	Changed loading scenario text
+
+Pre-Alpha 0.69 (Jari): 3 Feb 2008
+
+	Modified unit loader to load units from a ModelToLoad list
+	Swapped old (borrowed) Panzer III textures for some stand-ins
+	Upgraded old Panzer III model to new format
+	Specify main gun if VEH file
+	Load bones in VEH file
+	Keyboard repeat now off unless fatal crash interrupts shutdown
+	cleaned input handler shutdown to fix keyboard repeat issue
+	built new XML vehicle VEH specification parser
+	included TinyXML XML parser library into engine
+	New vehicle XML-based VEH specification to replace DEF
+	added Blender example file to project
+	new T-28 vehicle model and animations
+	shells now fire directly out of main guns
+	adjusted bones on sherman model
+	added line in vehicle .defs so that hulls list a bone for main gun muzzle (origin of shell projectiles)
+	added line in vehicle .defs so that hulls list a bone to attach turrets
+	removed manual turret offset definition from .def files
+	fixed 'Zimmerit' spelling mistakes in engine
+	removed complaint that blank lines were 'unrecognised' in vehicle .defs when loading scenarios
+
+Pre-Alpha 0.68 (Aurvang): 7 Jan 2008
+
+	perfected orientation of projectiles in flight
+	fixed orientation of projectile 3d mesh
+	simplified projectile physics test
+	ballistics model design
+	Basic projectile class
+	Built a big obvious projectile
+	Fix - building list loading still concatinating old name ends
+	scenario loader now actually loads specified shrub and building lists specified in .sce files
+	fixed bug where the ARTS daemon was not being shut down properly on KDE Linux
+	fixed bug where keyboard repeat was turning off in Linux systems after engine exits
+	new text entry widget based on AbstractWidget (entry widget is also based on AW)
+	start idle animation at random point
+	removed bone-turret attachment after testing due to internal complications.
+	attach turrets to hull 'turret' bone
+	Add animations to sherman gun
+	added Windows operating system support for file reader
+
+Pre-Alpha 0.67 (Loni): 14 Dec 2007
+
+	Tested animation
+	replaced sherman textures
+	replaced tank drive .wav
+	launch (GUI) 'Loading Scenario' Overlay in editor
+	add camera start pos for different forces to .SCE
+	print camera pos of F1 GUI
+	Load default scenario
+	(Infra) Scenario Editor as a separate class (clean up main code)
+	enter default sce details in lobby panel
+	set force names on shields
+	hide unused force shields
+	select force0 shield by default
+	changed vehicle internal time scale from ms to us (micro seconds)
+
+Pre-Alpha 0.66 (Fraeg): 02 Dec 2007
+
+	tweaked time to convert ms to us in vehicles
+	create force-chooser/shield name list widget.
+	code cleanup in main MarkIV class
+	scenario editor rebuilt and has own class
+	camera position loaded from .sce file
+	tweaked shrub culling
+	add esc closes thingy to browser
+	fix the scen browser in editor so it's not a filthy hack and goes away
+
+Pre-Alpha 0.65 (Hornbori): 30 Nov 2007
+
+	fix button click when opening editor
+	eclusive mode for file browser
+	repaired timing in 'join server'
+	tweaked lobby layout and visibility
+	made scenario details display a nicer heading
+	fix buttons in editor - now clicking on them built things behind them 
+	fixed scenario ready count working properly
+	bring chat zorder up to front of screen
+	'start' game from lobby now loads map from chosen scenario (if one exists)
+
+Pre-Alpha 0.64 (Frar): 24 Nov 2007
+
+	bring chat zorder up to front of screen
+	replaced temporary labels with details panel widget in lobby
+	user cancel game init no longer reported as error
+	new scenario info details panel in lobby
+	only allow 1 browser entry at a time to be selected
+	used ScenarioDetails class to populate browser with info of selection
+	Improved clock-based functions in editor
+	Implemented File reader for linux
+	Built multi-platform file scanner tool
+	Improved elapsed time measurements
+	Fixed frame Limiter
+	Changed elapsed time from milliseconds to microseconds for more accuracy
+
+Pre-Alpha 0.63 (Sviur): 19 Nov 2007
+	~Standardised widget interfaces
+	Can move, rescale and proportionally nest widgets
+	Improved GUI button appearance
+	Improved GUI rescaling: is now nested properly so widgets can rescale sub-widgets
+	New GUI widget: EntryWidget (i.e. a selectable entry in a 'combo-box')
+	New GUI widget: FileBrowserWidget (semi-transparent) Window - a sort of 'combo-box'
+	New GUI widget: LabelWidget
+	New GUI widget: ImageWidget
+	New GUI widget: LobbyMenu
+	Wrapped (*VERY*) messy parts of OGRE Overlay system polymorphism
+	Improved frame-limiter - now all loops are limited to 250 FPS
+
+Pre-Alpha 0.62 (Hannar): 16 Nov 2007
+	Fixed CPU overloading in Scenario Editor
+	Added background image to Main Menu
+	Integrated new GUI system with Main Menu
+	GUI: components scale for different resolutions
+	Built new GUI system with widgets for mouse-roll-over buttons
+	Improved System Design - reduced big blobs of code
+	Compile on a multi-core, 64-bit machine
+	Find any compatability problems
+
+Pre-Alpha 0.61 (Heptifili): 9 Nov 2007
+	Fixed minor bug where changing brush was printing a false error
+	Scenario Editor: (GUI) 'Selected' frame around buttons
+	CEGUI Dumped from dependencies.
+	Native Mouse Cursor system.
+
+Pre-Alpha 0.60 (Nali): 7 Nov 2007
+	Bug: Stack smashing (crash) when loading level several times. Was name[] array not enough mem.
+	Improve 'Move Selected' in editor - to a RMB down drag function
+	improved button click timer in editor
+	manipulation of selected scenery - move, rotate, delete
+	select scenery + show bounding box
+	save and load buildings to and from scenario file
+	load scenario frees all previous shrubs and detaches nodes
+	load scenario frees all previous buildings and detaches nodes
+	Scenario Editor:'Sub-Button' display modes (brush size or rotate)
+	Scenario Editor:Improve 'delete' function - destroy Node
+	Scenario Editor:(GUI) Rotate and Delete Buttons
+
+Pre-Alpha 0.59 (Fundin): 30 Aug 2007
+	audited all the TODOs in every file
+	intensity and brush change size in real-time
+	GUI for different brush sizes
+	basic buildings in editor
+	infrastructure basic buildings in editor
+	linked main game's terrain to ETM
+	removed old terrain infrastructure
+	re-balancing (nearby - specified distance) shrubs after terrain deform
+	Fixed: Camera move seg fault when start solo after scenario edit
+	Fixed: scenario edit *2=crash. memory not freed properly
+	saving and loading shrubs in editor
+
+Pre-Alpha 0.58 (Kili): 23 Aug 2007
+	Shrub culling based on camera distance prototype
+	Fixed Windows compatability of code (argv argc)
+	Fixed memory overrun checking for shrub placement
+	Fixed mouse mode for shrub placement
+	Shrub/tree placement prototype
+	Windows compile w/editor and audio libs
+	fix up compile script
+
+Pre-Alpha 0.57 (Fili): 16 Aug 2007
+	added project management documents to Subversion trunk
+	added makefiles etc. to subversion trunk
+	switched from packages to Subversion for code management
+	infrastructure for loading and handling shrubs (trees and bushes)
+	improved scenario saving name convention
+
+Pre-Alpha 0.56 (Rathvith): 12 Aug 2007
+	save/load basics in Se
+	painting terrain in scenario editor
+	GUI announce mode change in SE, little (clickable) buttons
+	switching edit modes in SE
+
+Pre-Alpha 0.55 (Regin): 10 Aug 2007
+	terrain deform in scenario editor
+	lightmap generation in real time in scenario editor
+
+Pre-Alpha 0.54 (Nyrath): 9 Aug 2007
+	Blank lines in DEF files are now ignored
+	Scenario Editor starts from main menu
+	--noaudio command line option (Linux)
+	particle system prototype
+	loads appropriate sounds upon definition load
+	added sounds to unit definitions
+	Enabled Aiming for non-turret vehicles (e.g. Tank Destroyers)
+
+Pre-Alpha 0.53 (Nyr): 29 July 2007
+	audio 'listener' now attached to camera in 3d
+	Fix: where stripstring wasn't working properly when there is a blank line
+
+Pre-Alpha 0.52 (Lit): 24 July 2007
+	Audio: Basic 3D Audio is now working
+
+Pre-Alpha 0.51 (Vi): 12 July 2007
+	3D Models: user can define own names for animations in DEF file
+	3D Models: basic animation of vehicles {idle,move,fire}
+	Unit Controls: Enable engagment/combat model
+
+Pre-Alpha 0.50 (Thror): 11 July 2007
+	Target aquisition working over network in real time
+	Vehicle Turret Rotate to target and tracks moving targets
+	Unit Controller converts target to coords (at moments assumes can be seen) & Cancel Unit's Waypoints.
+	Fix: so blank chat doesn't print anything
+	User Interaction: able to order tank to target enemy tanks
+	Selected Vehicle details panel
+	Networking: block clients from connecting mid-game
+
+Pre-Alpha 0.49 (Thorin): 7 July 2007
+	GUI: new buttons appearance
+	GUI: force selection for players (in lobby)
+	Unit Controls: force lock-in for vehicles
+
+Pre-Alpha 0.48 (Thekk): 7 July 2007
+	improved network synchronisation model
+	removed chat background panel and some other background panels
+	new fonts for gui
+	capture all string (incl spaces) in /setName etc.
+	"loading scenario.." panel (similar to "connecting to server..." panel)
+	adjusted camera so slightly higher minimum height
+	lobby GUI customised to solo/server/client
+	lobby GUI cleaned up on lobby restart
+
+Pre-Alpha 0.47 (Thrain): 4 July 2007
+	included resource.cfg + clean up in packages
+	server updates clients with total ready status
+	ready/notready text in lobby
+	button clicking on 'ready' and 'start' in lobby
+	server adds self to ready status
+	Added short sleeps into some engine loops to massively reduce CPU load
+	'Ready/notReady' count of players updated in GUIs
+	Force 'shields' loaded into GUI
+	New 'lobby' area GUI
+
+Pre-Alpha 0.46 (Vindalf): 29 June 2007
+	Condensed Armour details in DEF files
+	Gets actual turret rotation speed from file and converts from rad/s to rad/ms
+	Added turret offset loading capability
+
+Pre-Alpha 0.45 (Gandalf): 25 June 2007
+	Chat message box cleared when starting a new simulation
+	Found and fixed a bug where client was not cleanly disconnecting (forgot to write code)
+	Added a 'Connecting to Server' phase for client networking
+	Selection of whole tank possible by clicking on turret
+
+Pre-Alpha 0.44 (Vigg): 23 June 2007
+	Loads and has infrastructure for moving turrets
+
+Pre-Alpha 0.43 (Mjothvitnir): 23 June 2007
+	Unit Definition File Loader (vehicle statistics loaded from user files)
+	Automatic Model Scaling
+	Dynamic Vehicle Balancing (based on model size)
+	km/h <-> m/ms automatic conversion mechanism
+	fixed all outstanding bugs (chat, memory freeing)
+
+Pre-Alpha 0.42 (Ai): 15 June 2007
+	Debug Panel toggle (F1)
+
+Pre-Alpha 0.41 (Onar): 15 June 2007
+	Network ordering of units working (first advanced network functionality)
+	(note: no synch updates yet so may go out of synch on slower connections)
+	/ping command available for client and server
+
+Pre-Alpha 0.40 (An): 10 June 2007
+	Chat system finished and working
+
+Pre-Alpha 0.39 (Nori): 10 June 2007
+	Client 'enter IP' dialogue
+	Client-Server graphical connectivity
+
+Pre-Alpha 0.38 (Bombur): 9 June 2007
+	Main menu buttons link to game state paths
+	*can't go back to main menu after game because unitHandler mem not freed properly (yet)
+
+Pre-Alpha 0.37 (Bofur): 9 June 2007
+	Built interactive Main-Menu GUI
+
+Pre-Alpha 0.36 (Bifur): 9 June 2007
+	Network chat GUI box displays received messages.
+	Re-Included Debug overlay (framerate etc)
+	Remodelled entire game state system to support a main menu system, networking modes and editor
+
+Pre-Alpha 0.36 (Dain): 8 June 2007
+	Integrated Server side of Network Engine into Simulator.
+
+Pre-Alpha 0.35 (Niping): 16 May 2007
+	Fixed bug with unit mouse ordering going funny outside of 800x600 resolution.
+
+Pre-Alpha 0.34 (Nain): 23 April 2007
+	MAJOR MILESTONE: Most Basic level of game/engine functionality
+	Selected Vehicles Follow orders
+	Revised vehicle balancing system
+	Revised Mouse selection
+
+
+Pre-Alpha 0.33 (Nar):	21 April 2007
+	Mouse selection of single or multiple vehicles
+	Bounding box drawn around selected vehicle(s)
+	Simple select/deselect scheme
+	One-Click Locking of Mouse Buttons and 'Mode' Keys
+	RMB Assigns orders to selected vehicle(s)
+
+Pre-Alpha 0.32 (Dvalin):	21 April 2007
+	New Unit Class
+
+Pre-Alpha 0.31 (Althjof):	20 April 2007
+	moving vehicles over 3D terrain (press F4)
+	full DirectX9 support (dll problem fixed)
+	solved Blender rotation and scale problem
+
+Pre-Alpha 0.30 (Vestri):	17 April 2007
+	balancing models on 3D terrain
+
+Pre-Alpha 0.29 (Austri)
+	moving the camera and rotating using mouse and keys
+
+Pre-Alpha 0.28 (Suthri)
+	loading user-specified models
+
+Pre-Alpha 0.27 (Northri)
+	restored GUI display with CEGUI 0.5
+	fixed XML errors in CEGUI samples
+
+Pre-Alpha 0.26 (Nithi)
+	Object Oriented Input System included
+
+Pre-Alpha 0.25 (Nyi)
+	Complete Design restructure;
+	adopted while loop design
+	abandoned frame listeners model
+	code simplification
+	now using OGRE Eihort
+
+Pre-Alpha 0.24 (Durin)
+	BROKEN by OGRE Final library upgrade
+	rebuilding code to use OGRE Eihort Final
+
+Pre-Alpha 0.23 (Motsognir)
+	BROKEN by OGRE RC2 library upgrade
+	rebuilding code to use OGRE Eihort RC2
+
+Pre-Alpha 0.22 (Blain)
+	Upgrade code to meet OGRE Dagon Final library
+
+Pre-Alpha 0.21 (Brimir)
+	Unit Selection with mouse

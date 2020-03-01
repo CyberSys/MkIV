@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan
+DESIGNATION Row of Buildings
+NAME Old Town Row
+MESH_FILE oldtownrow2.mesh
+LENGTH_M 55.0
+WIDTH_M 55.0
+AUTO_SCALE 1

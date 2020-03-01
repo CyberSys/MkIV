@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan
+DESIGNATION 2-Level House
+NAME Country House
+MESH_FILE CountryHouse.mesh
+LENGTH_M 10.0
+WIDTH_M 10.0
+AUTO_SCALE 1

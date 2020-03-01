@@ -1,0 +1,13 @@
+material material_13/SOLID/TEX/sandbags.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture sandbags.png
+			}
+		}
+	}
+}

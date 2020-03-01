@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan
+DESIGNATION footpath
+NAME footpath
+MESH_FILE footPath.mesh
+LENGTH_M 10.0
+WIDTH_M 10.0
+AUTO_SCALE 1

@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan
+DESIGNATION Single Fir 3
+NAME Fir Tree 3
+MESH_FILE FirTree3.mesh
+LENGTH_M 5.0
+WIDTH_M 5.0
+AUTO_SCALE 1

@@ -1,0 +1,182 @@
+material roof/SOLID/TEX/fw65_2.jpg
+{
+	technique
+	{
+		pass
+		{
+	
+			texture_unit
+			{
+				texture fw65_2.jpg
+			}
+		}
+	}
+}
+material Default/SOLID/TEX/fw65_1.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture fw65_1.jpg
+			}
+		}
+	}
+}
+material window2/SOLID/TEX/fw65_1.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture fw65_1.jpg
+			}
+		}
+	}
+}
+material back/SOLID/TEX/fw65_1.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture fw65_1.jpg
+			}
+		}
+	}
+}
+material balken/SOLID/TEX/fw65_1.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture fw65_1.jpg
+			}
+		}
+	}
+}
+material stufen/SOLID/TEX/fw65_1.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture fw65_1.jpg
+			}
+		}
+	}
+}
+material stone2/SOLID/TEX/stone3.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture stone3.jpg
+			}
+		}
+	}
+}
+material door/SOLID/TEX/fw65_2.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture fw65_2.jpg
+			}
+		}
+	}
+}
+material windows/SOLID/TEX/fw65_1.jpg
+{
+	technique
+	{
+		pass
+		{
+	
+			texture_unit
+			{
+				texture fw65_1.jpg
+			}
+		}
+	}
+}
+material wood2/SOLID/TEX/fw65_1.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture fw65_1.jpg
+			}
+		}
+	}
+}
+material s/SOLID/TEX/fw65_2.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture fw65_2.jpg
+			}
+		}
+	}
+}
+material kamin/SOLID/TEX/fw65_1.jpg
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture fw65_1.jpg
+			}
+		}
+	}
+}
+material wood2b/SOLID/TEX/fw65_2.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture fw65_2.jpg
+			}
+		}
+	}
+}

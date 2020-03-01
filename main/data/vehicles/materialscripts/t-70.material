@@ -1,0 +1,27 @@
+material t70-b/SOLID/TEX/gus.jpg
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gus.jpg
+			}
+		}
+	}
+}
+material t70/SOLID/TEX/T-70_all.jpg
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture T-70_all.jpg
+			}
+		}
+	}
+}

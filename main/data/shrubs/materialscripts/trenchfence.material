@@ -1,0 +1,13 @@
+material material_12/SOLID/TEX/trenchfence.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture trenchfence.png
+			}
+		}
+	}
+}

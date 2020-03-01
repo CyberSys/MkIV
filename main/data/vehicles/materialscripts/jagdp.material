@@ -1,0 +1,40 @@
+material SOLID/TEX/Wheels.tga
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Wheels.png
+			}
+		}
+	}
+}
+material SOLID/TEX/Korp_stv.tga
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture Korp_stv.png
+			}
+		}
+	}
+}
+material SOLID/TEX/Gust.tga
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Gust.tga
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+material blinn1SG/SOLID/TEX/windmill_diffuse.tga
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture windmill_diffuse.jpg
+			}
+		}
+	}
+}

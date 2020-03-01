@@ -1,0 +1,224 @@
+material fw_s/SOLID/TEX/wall7.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture wall7.jpg
+			}
+		}
+	}
+}
+material fw43_front2/SOLID/TEX/wall7.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture wall7.jpg
+			}
+		}
+	}
+}
+material fw43_s2/SOLID/TEX/fw42b.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture fw42b.jpg
+			}
+		}
+	}
+}
+material gusseisen/SOLID/TEX/m1.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture m1.jpg
+			}
+		}
+	}
+}
+material fw_s/SOLID/TEX/stoned.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture stoned.jpg
+			}
+		}
+	}
+}
+material holzbu43/SOLID/TEX/wood_1B.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wood_1B.jpg
+			}
+		}
+	}
+}
+material fw43_front1/SOLID/TEX/wall1.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall1.jpg
+			}
+		}
+	}
+}
+material fw_s/SOLID/TEX/door35.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture door35.jpg
+			}
+		}
+	}
+}
+material windowbalk/SOLID/TEX/wood_1B.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wood_1B.jpg
+			}
+		}
+	}
+}
+material fw_s/SOLID/TEX/wall1.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture wall1.jpg
+			}
+		}
+	}
+}
+material gruenzeug/SOLID/TEX/leafs.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture leafs.jpg
+			}
+		}
+	}
+}
+material windowsside4/SOLID/TEX/fw42b.jpg
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture fw42b.jpg
+			}
+		}
+	}
+}
+material wood2/SOLID/TEX/wood_1B.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wood_1B.jpg
+			}
+		}
+	}
+}
+material fw_s/SOLID/TEX/fw42b.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture fw42b.jpg
+			}
+		}
+	}
+}
+material fw43_back2/SOLID/TEX/wall7.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wall7.jpg
+			}
+		}
+	}
+}
+material fw43_window/SOLID/TEX/window22.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture window22.jpg
+			}
+		}
+	}
+}

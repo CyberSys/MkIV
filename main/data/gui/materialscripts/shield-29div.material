@@ -1,0 +1,18 @@
+material shield-29div
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture shield-29div.png
+			}
+		}
+	}
+}
+

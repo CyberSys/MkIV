@@ -1,0 +1,7 @@
+ARTIST Paged Geometry plugin
+DESIGNATION GeoTree
+NAME Tree
+MESH_FILE tree.mesh
+LENGTH_M 5.0
+WIDTH_M 5.0
+AUTO_SCALE 1

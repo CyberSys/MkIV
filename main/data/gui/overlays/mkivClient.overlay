@@ -1,0 +1,60 @@
+// Ogre overlay scripts
+mkiv/ClientOverlay
+{
+	zorder 500
+	// Stats block
+	container BorderPanel(mkiv/ClientPanel)
+	{
+		metrics_mode pixels
+		vert_align centre
+		horz_align centre
+		left -140 
+		top 0
+		width 280
+		height 34
+		material mkiv/ChatBlockCenter
+		border_size 1 1 1 1
+		border_material mkiv/ChatBlockBorder
+		border_topleft_uv     0.0000 1.0000 0.0039 0.9961
+		border_top_uv         0.0039 1.0000 0.9961 0.9961
+		border_topright_uv    0.9961 1.0000 1.0000 0.9961
+		border_left_uv        0.0000 0.9961 0.0039 0.0039
+		border_right_uv       0.9961 0.9961 1.0000 0.0039
+		border_bottomleft_uv  0.0000 0.0039 0.0039 0.0000
+		border_bottom_uv      0.0039 0.0039 0.9961 0.0000
+		border_bottomright_uv 0.9961 0.0039 1.0000 0.0000
+
+		element TextArea(mkiv/ClientIPTitle)
+		{
+			metrics_mode pixels
+			horz_align left
+			vert_align top
+			left 0
+			top -20
+			width 90
+			height 30
+			font_name Armalite
+			char_height 19
+			caption Type the IP Address of the Server
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/ClientIPInput)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 5
+			top -30
+			width 90
+			height 30
+			font_name Armalite
+			char_height 30
+			caption 127.0.0.1
+			colour_top 0.5 1 0
+			colour_bottom 0.3 1 0
+		}	
+	}
+}
+
+

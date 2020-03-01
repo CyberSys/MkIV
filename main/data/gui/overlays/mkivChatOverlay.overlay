@@ -1,0 +1,84 @@
+// Ogre overlay scripts
+mkiv/ChatOverlay
+{
+	zorder 550
+	// Stats block
+	container BorderPanel(mkiv/ChatPanel)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		horz_align left
+		left 5 
+		top -93
+		width 400
+		height 88
+
+		element TextArea(mkiv/ChatLine0)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			left 5
+			top -17
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			colour_top 0.5 1 0
+			colour_bottom 0.3 1 0
+		}
+		element TextArea(mkiv/ChatLine1)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			left 5
+			top -34
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			colour_top 0.5 1 0
+			colour_bottom 0.3 1 0
+		}
+		element TextArea(mkiv/ChatLine2)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			left 5
+			top -51
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			colour_top 0.5 1 0
+			colour_bottom 0.3 1 0
+		}
+		element TextArea(mkiv/ChatLine3)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			left 5
+			top -68
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			colour_top 0.5 1 0
+			colour_bottom 0.3 1 0
+		}
+		element TextArea(mkiv/ChatLine4)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			left 5
+			top -85
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			colour_top 0.5 1 0
+			colour_bottom 0.3 1 0
+		}		
+	}
+}
+
+

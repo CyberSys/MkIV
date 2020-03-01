@@ -1,0 +1,70 @@
+= OGRE =
+== Fuzzy Logic/AI ==
+* attack/defend/cautious fuzzy http://www.byond.com/members/DreamMakers?command=view_post&post=37966
+== Terrain ==
+* Editible Terrain Manager (ETM) forums http://www.ogre3d.org/addonforums/viewforum.php?f=16
+  * Dynamic lighting shaders (forum post) http://www.ogre3d.org/addonforums/viewtopic.php?f=16&t=7009&sid=f15552ebbe63b13d115b2a892a4c88f5
+  * Fog shader (forum post) http://www.ogre3d.org/addonforums/viewtopic.php?t=6572&sid=ce193664e1d3d7c4af509e6f4e2718c6
+* ArtifexTerra - Terrain editor http://www.ogre3d.org/forums/viewtopic.php?t=42507
+  - V impressive editor. Based on ETM for real-time deformation OR terrainscenemanager for static
+  - requires Win2000/XP
+  - not open-source but free; might be a nice alternative editing tool or inspiration
+* Drawing a grid over terrain http://www.ogre3d.org/forums/viewtopic.php?f=2&t=43179
+== Materials ==
+=== Shaders ===
+* OGRE Wiki examples (steel, bumpmaps etc) http://www.ogre3d.org/wiki/index.php/Materials
+=== Animated Materials ===
+* Tank treads - http://www.ogre3d.org/forums/viewtopic.php?f=2&t=39015
+  - result is that it would be better to just animate the model
+== Animation ==
+* Blender wheel rotation http://www.ogre3d.org/forums/viewtopic.php?f=8&t=37972&start=0
+== Physics Bindings ==
+* OgreNewt http://www.ogre3d.org/addonforums/viewforum.php?f=4
+* NxOgre http://www.ogre3d.org/addonforums/viewforum.php?f=6
+* OgreODE http://www.ogre3d.org/addonforums/viewforum.php?f=7
+* OgreBullet http://www.ogre3d.org/addonforums/viewforum.php?f=12
+== Water ==
+* Hydrax (library) http://www.ogre3d.org/addonforums/viewforum.php?f=20
+== GUIs ==
+* QUickGUI http://www.ogre3d.org/addonforums/viewforum.php?f=13
+== Audio Bindings ==
+* OgreAL http://www.ogre3d.org/addonforums/viewforum.php?f=10
+== Interesting OGRE Projects ==
+* World Under Siege (WWII RTS) http://worldundersiege.cateia.com/gallery.php
+
+= Blender =
+* Blender OGRE Exporter (OGRE wiki tutorial) http://www.ogre3d.org/wiki/index.php/Tools:_Blender
+
+* http://www.clockworkbeetle.com/coh_of.html
+
+= Resources =
+== Libraries ==
+* nice list of physics, ai, etc here http://www.ogre3d.org/wiki/index.php/Libraries
+== Paper Models (that can be used to make 3D models) ==
+* http://www.juniorgeneral.org/index.html
+== Free Models ==
+* Moorish building http://www.turbosquid.com/3d-models/old-medieval-moorish-building-lwo-free/366497
+
+
+* http://www.military-meshes.com
+* http://www.military3d.boom.ru/
+* Blender Model Repository http://e2-productions.com/repository/index.php
+* http://www.lowpolycoop.com/
+* Wikiworlds http://virtualworlds.wikia.com/wiki/Main_Page
+* http://www.md2.sitters-electronics.nl/index.html (and Skyboxes v cool)
+* http://hosted.planetquake.gamespy.com/polycount/
+* http://dmi.chez-alice.fr/models1b.html
+=== Specific Models of Interest ===
+==== Vehicles ====
+* Water Truck http://virtualworlds.wikia.com/wiki/Image:Water_truck.jpg
+* Jeep http://virtualworlds.wikia.com/wiki/Image:Jeep_redirect.png
+* Truck w/ various trailers http://virtualworlds.wikia.com/wiki/Image:Truck_container_redirect.png
+* Police Car http://virtualworlds.wikia.com/wiki/Image:Policecar_redirect.jpg
+==== People ====
+* Nexuiz Marine http://virtualworlds.wikia.com/wiki/Image:Marine_redirect.png
+* Guardian w/rifle http://e2-productions.com/repository/modules/PDdownloads/singlefile.php?cid=2&lid=22
+==== Misc ====
+* Cow http://virtualworlds.wikia.com/wiki/Image:Cow_skin_white_1_redirect.png
+* Street Signs, lights, urban stuff http://virtualworlds.wikia.com/wiki/3d_models_list
+=== Sounds on Youtuve ===
+http://www.youtube.com/watch?v=V2OjPsg7ydY mp40, ppsh-41

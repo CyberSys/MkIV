@@ -1,0 +1,85 @@
+material mkiv/EyeOfRa
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture Eyeofra.png
+			}
+		}
+	}
+}
+material mkiv/1stSSShield
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture 1st_ss.png
+			}
+		}
+	}
+}
+material mkiv/82ndAB
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture 82abshield.png
+			}
+		}
+	}
+}
+material mkiv/79tharmoured
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture 79th_armoured_division_badge.png
+			}
+		}
+	}
+}
+material mkiv/PanzerLehr
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture PzLehrSymbol.png
+			}
+		}
+	}
+}

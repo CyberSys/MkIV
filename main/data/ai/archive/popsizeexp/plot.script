@@ -1,0 +1,9 @@
+set title "Population Size (n) Effect on Fitness"
+set xlabel "Number of Individuals Evaluated"
+set ylabel "Fitness Level"
+set yrange [0:2]
+plot "n=4.xy" title "n=4" with lines lw 2, \
+"n=10.xy" title "n=10" with lines lw 2, \
+"n=20.xy" title "n=20" with lines lw 2, \
+"n=50.xy" title "n=50" with lines lw 2, \
+"n=100.xy" title "n=100" with lines lw 2 lt 9

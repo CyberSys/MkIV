@@ -1,0 +1,24 @@
+void ETFog_VS
+(
+	float4 position : POSITION,
+	float delta : BLENDWEIGHT,
+
+	uniform float4x4 worldViewProj,
+	uniform float morphFactor,
+	uniform float4 fogColour,
+	uniform float4 fogParams,
+	uniform float3 camPos,
+       
+	out float4 oPosition : POSITION,
+	out float4 oColor : COLOR
+)
+{
+	// These lines are the LOD adjustment, morph factor is a
+	// parameter that is auto-updated by ETM
+	position.y = position.y + (delta.x * morphFactor);
+	oPosition = mul(worldViewProj, position);
+
+	float dist = length(position - camPos);
+	float fogAmount = max((dist - fogParams.y) * fogParams.w, 0);
+	oColor = float4(fogColour.rgb, fogAmount);
+}

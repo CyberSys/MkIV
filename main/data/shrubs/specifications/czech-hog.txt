@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan
+DESIGNATION Czech Hedgehog
+NAME Czech Hedgehog Tank Obstacle
+MESH_FILE czech-hog.mesh
+LENGTH_M 5.0
+WIDTH_M 5.0
+AUTO_SCALE 1

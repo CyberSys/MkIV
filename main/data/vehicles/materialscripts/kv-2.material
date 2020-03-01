@@ -1,0 +1,27 @@
+material kv-2/treads/SOLID/TEX/gus.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture gus.jpg
+			}
+		}
+	}
+}
+material kv-2/paintwork/SOLID/TEX/kv-2-body-blue.jpg/VertCol
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture kv-2-body-blue.jpg
+			}
+		}
+	}
+}

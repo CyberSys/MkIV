@@ -1,0 +1,21 @@
+# This is the .def file for a Tudor House
+
+# type of definition file {single,forest, ...}
+TYPE single
+
+# name of the vehicle
+DESIGNATION 4-Level House
+NAME Tudor House
+
+# the mesh file to load
+MESH_FILE tudorhouse.mesh
+
+# dimensions for balancing the vehicle properly on terrain and scaling to size
+LENGTH_M 15.0
+WIDTH_M 15.0
+
+# if auto_scale set to '1' then meshes scaled 
+AUTO_SCALE 1
+
+# COVER_VALUE 20
+# HEALTH 20

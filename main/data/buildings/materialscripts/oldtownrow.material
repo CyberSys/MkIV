@@ -1,0 +1,752 @@
+material wall022o11_/SOLID/TEX/wall022o11_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o11_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o27_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o27_.jpg
+			}
+		}
+	}
+}
+material wall033/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall022o4_/SOLID/TEX/wall022o4_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o4_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o9_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o9_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o13_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o13_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o16_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o16_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/Material3_2_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material3_2_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/strecha_003_256.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture strecha_003_256.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o3_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o3_.jpg
+			}
+		}
+	}
+}
+material Material3_1_/SOLID/TEX/Material3_1_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material3_1_.jpg
+			}
+		}
+	}
+}
+material Material3_3_/SOLID/TEX/Material3_3_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material3_3_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o14_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o14_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o17_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o17_.jpg
+			}
+		}
+	}
+}
+material wall021/SOLID/TEX/wall021.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall021.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o7_.jpg
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o7_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/Material4_1_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material4_1_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o10_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o10_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o5_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o5_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o25_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o25_.jpg
+			}
+		}
+	}
+}
+material wall018_256/SOLID/TEX/wall018_256.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.713725 0.698039 0.666667
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall018_256.jpg
+			}
+		}
+	}
+}
+material Material4/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.345098 0.333333 0.325490
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall033/SOLID/TEX/wall033.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.556863 0.537255 0.525490
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall033.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o6_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o6_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/Gwall016.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Gwall016.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o24_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o24_.jpg
+			}
+		}
+	}
+}
+material wall023/SOLID/TEX/wall023.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.427451 0.407843 0.411765
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall023.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o28_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o28_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o15_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o15_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o21_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o21_.jpg
+			}
+		}
+	}
+}
+material wall022o29_/SOLID/TEX/wall022o29_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o29_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o23_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o23_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o12_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o12_.jpg
+			}
+		}
+	}
+}
+material wall027/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.521569 0.521569 0.513725
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o20_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o20_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/strecha_004_256.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture strecha_004_256.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o1_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o1_.jpg
+			}
+		}
+	}
+}
+material kasna_bok_128/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.662745 0.658824 0.650980
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall022o19_/SOLID/TEX/wall022o19_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o19_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o18_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o18_.jpg
+			}
+		}
+	}
+}
+material wall022o2_/SOLID/TEX/wall022o2_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o2_.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o26_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o26_.jpg
+			}
+		}
+	}
+}
+material Material4/SOLID/TEX/Material4.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.345098 0.333333 0.325490
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material4.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/Material3.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material3.jpg
+			}
+		}
+	}
+}
+material wall022o17_/SOLID/TEX/wall022o8_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o8_.jpg
+			}
+		}
+	}
+}
+material kasna_bok_128/SOLID/TEX/kasna_bok_128.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.662745 0.658824 0.650980
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture kasna_bok_128.jpg
+			}
+		}
+	}
+}
+material wall022o22_/SOLID/TEX/wall022o22_.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o22_.jpg
+			}
+		}
+	}
+}

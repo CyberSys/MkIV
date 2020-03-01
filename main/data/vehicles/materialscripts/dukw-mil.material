@@ -1,0 +1,98 @@
+material SOLID/TEX/dukw-window.png
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			texture_unit
+			{
+				texture dukw-window.png
+			}
+		}
+	}
+}
+material SOLID/TEX/dukw-tiretread.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture dukw-tiretread.png
+			}
+		}
+	}
+}
+material SOLID/TEX/dukw-headlamp.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture dukw-headlamp.png
+			}
+		}
+	}
+}
+material SOLID/TEX/mil-dukw-side-waves.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture mil-dukw-side-waves.png
+			}
+		}
+	}
+}
+material SOLID/TEX/mil-wheel.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture mil-wheel.png
+			}
+		}
+	}
+}
+material SOLID/TEX/mil-dukw-yellow.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture mil-dukw-yellow.png
+			}
+		}
+	}
+}
+material SOLID/TEX/mil-dukw-side-upper.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture mil-dukw-side-upper.png
+			}
+		}
+	}
+}

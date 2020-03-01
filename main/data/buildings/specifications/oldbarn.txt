@@ -1,0 +1,7 @@
+ARTIST ~turbosquid
+DESIGNATION Old barn
+NAME Old barn
+MESH_FILE oldbarn.mesh
+LENGTH_M 10.0
+WIDTH_M 10.0
+AUTO_SCALE 1

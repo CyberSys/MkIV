@@ -1,0 +1,14 @@
+material crate/SOLID/TEX/CRATE_128.bmp
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture CRATE_128.bmp
+			}
+		}
+	}
+}

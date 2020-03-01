@@ -1,0 +1,14 @@
+material Chapel_Mat_/SOLID/TEX/chapel_diffuse.tga
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture chapel_diffuse.jpg
+			}
+		}
+	}
+}

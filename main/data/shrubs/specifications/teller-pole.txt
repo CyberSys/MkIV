@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan
+DESIGNATION Upright Log Obstacle
+NAME Teller-Mine Log Obstacle
+MESH_FILE teller-pole.mesh
+LENGTH_M 4.5
+WIDTH_M 4.5
+AUTO_SCALE 1

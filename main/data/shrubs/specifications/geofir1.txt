@@ -1,0 +1,7 @@
+ARTIST Paged Geometry plugin
+DESIGNATION Geofir1
+NAME GEOfir05_30
+MESH_FILE fir05_30.mesh
+LENGTH_M 8.0
+WIDTH_M 8.0
+AUTO_SCALE 1

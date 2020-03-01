@@ -1,0 +1,77 @@
+// Ogre overlay scripts
+mkiv/GFSOverlay
+{
+	zorder 500
+	// Stats block
+	container BorderPanel(mkiv/GFSBorderPanel)
+	{
+		vert_align bottom
+		left 0
+		top -0.035
+		width 1
+		height 0.03
+		material mkiv/ChatBlockCenter
+		    
+		element TextArea(mkiv/GFSTime)
+		{
+			left 0
+			top 0.002
+			font_name Jedi
+			char_height 0.03
+			caption Time: 30s
+			colour 1 1 0.7
+		}
+		
+		element TextArea(mkiv/GFSGen)
+		{
+			left 0.15
+			top 0.002
+			font_name Jedi
+			char_height 0.03
+			caption Generation: 0
+			colour 1 1 0.7
+		}
+		
+		element TextArea(mkiv/GFSIndi)
+		{
+			left 0.325
+			top 0.002
+			font_name Jedi
+			char_height 0.03
+			caption Individual: 0
+			colour 1 1 0.7
+		}
+		
+		element TextArea(mkiv/GFSCrash)
+		{
+			left 0.45
+			top 0.002
+			font_name Jedi
+			char_height 0.03
+			caption Crashes: 100
+			colour 0.2 1 0.2
+		}
+		
+		element TextArea(mkiv/GFSSpeed)
+		{
+			left 0.65
+			top 0.002
+			font_name Jedi
+			char_height 0.03
+			caption Speed: 75%
+			colour 0.2 1 0.2
+		}
+		element TextArea(mkiv/GFSMiles)
+		{
+			left 0.85
+			top 0.002
+			font_name Jedi
+			char_height 0.03
+			caption km: 00
+			colour 1 1 0.7
+		}
+	}
+}
+
+
+

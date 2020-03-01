@@ -1,0 +1,17 @@
+material mkiv/Lobby_Background
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check on
+
+			texture_unit
+			{
+				texture background_landing.jpg
+			}
+		}
+	}
+} 

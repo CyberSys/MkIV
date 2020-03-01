@@ -1,0 +1,120 @@
+../src/gui/LobbyMenu.h:	// **TODO Shield Widgets
+../src/gui/TextEntryWidget.cpp:	// TODO add resizing and custom widget init here
+../src/gui/TsunamiGUI.cpp:	// TODO will also need to inform clients when scenario changed
+../src/gui/LobbyMenu.cpp:				// TODO: notify change of force to server and to globals
+../src/gui/LobbyMenu.cpp:				// TODO change observer to 0?
+../src/gui/LobbyMenu.cpp:	// TODO get details before and check if null for validation to prevent segfault
+../src/network/Raknet/DS_OrderedChannelHeap.h:			// TODO - ordered channel heap uses progressively lower values as items are inserted.  But this won't give relative ordering among channels.  I have to renormalize after every pop.
+../src/network/Raknet/PacketLogger.cpp:	// TODO - put this back in a different form
+../src/network/Raknet/RakPeerInterface.h:	// TODO - rename for RakNet 3.0
+../src/network/Raknet/rijndael.cpp:// KevinJ - TODO - What the hell is __UNUS?  It causes DevCPP not to compile.   I don't know what this is for so I'm taking it out entirely
+../src/network/Raknet/RakNetStatistics.h:	///  Number of messages waiting for ack (// TODO - rename this)
+../src/network/Raknet/SocketLayer.cpp:	// TODO - I need someone on dialup to test this with :(
+../src/network/Raknet/SocketLayer.cpp:		// TODO - use WSASendTo which is faster.
+../src/network/Raknet/RakPeer.cpp:		// TODO - this should be fixed eventually
+../src/network/Raknet/RakPeer.cpp:		// UNCONNECTED MESSAGE Pong with no data.  TODO - Problem - this matches a reliable send of other random data.
+../src/network/Server.cpp:				// TODO !!! IS this actually working??? what does systemAddress do? (exclude that one?)
+../src/network/Server.cpp:// TODO - send something for file/version integrity
+../src/network/Server.cpp:// TODO - send something for file/version integrity
+../src/network/Server.cpp:	// TODO: not sure about param 2nd to last - should be an address
+../src/ai/FuzzyController.h:// NOTE: multiplied these values by 3 for markiv (TODO maybe not necessary once combined with ObstAvoid)
+../src/input/InputHandler.h:	// TODO Change to 'select unit key' etc.
+../src/input/InputHandler.h:	bool isLMBDown();	// TODO: change these to 'clicked'
+../src/units/VehicleDef.cpp:		// TODO: Add other elements here:xxx
+../src/units/Vehicle.cpp:	mAimMainCannonDelay = 3000000; // 3 seconds aiming time default TODO work this out
+../src/units/Vehicle.cpp:	{ // TODO: this should really be in a queue of jobs
+../src/units/Vehicle.cpp:			mInRangeOfTarget = true; // HACK (TODO UnitController should tell us this between every ~15 frames)
+../src/units/Vehicle.cpp:				// TODO moveIntoRange(elapsed); // move towards target (this could just move a primary waypoint around)
+../src/units/Vehicle.cpp:				// TODO: now angle the gun...
+../src/units/Vehicle.cpp:			if (aimed && mMainGunLoaded && facingTarget) { // TODO add other factors
+../src/units/Vehicle.cpp:				mGotCurrentWaypoint = false; // cancel this waypoint (TODO: move onto next waypoint)
+../src/units/Vehicle.cpp:		// TODO: aux turrets and radio operator here
+../src/units/Vehicle.cpp:		// TODO: Spotting etc goes here
+../src/units/Vehicle.cpp:/* TODO
+../src/units/Vehicle.cpp:		// TODO: for wheeled vehicles we need to use a very clever fuzzy logic steering
+../src/units/Vehicle.cpp:	// TODO: this is only a temporary speed
+../src/units/Vehicle.cpp:	balance();// TODO do we need to balance here for rotate-only operations?
+../src/units/Vehicle.cpp:		// TODO add gun pitch to this later
+../src/units/Vehicle.cpp:// aim the/a turret // TODO totally revise this function
+../src/units/Vehicle.cpp:	/* TODO TODO TODO
+../src/units/Vehicle.cpp:	// TODO pre-establish (before calling this function) if turret is a main turret or not
+../src/units/Vehicle.cpp:	int turretIndex = 0; // HACK this should be a parameter of the method TODO
+../src/units/Vehicle.cpp:	Vector3 ownPos = mNode->getPosition(); // TODO this is wrong - get the muzzle bone position
+../src/units/Vehicle.cpp:	float absFacing = mHeading + mTurretOrientation; // TODO wrong - get muzzle bone orientation
+../src/units/Vehicle.cpp:	// TODO: get rid of the whole stack here too
+../src/units/Vehicle.cpp:	mCurrentOrders = ORDERS_ATTACK; // TODO change these back to none when target destroyed
+../src/units/Vehicle.cpp:// TODO: revise this system completely; piece with main gun on it (be it turret or hull) faces target. all guns decide when to fire by themselves
+../src/units/Vehicle.cpp:	// TODO: smoke
+../src/units/Vehicle.cpp:	// TODO: fire
+../src/units/Vehicle.cpp:	// TODO: shock/dust wave
+../src/units/Vehicle.cpp:	// TODO: play reloading sound??
+../src/units/Projectile.cpp:		return true; // TODO ACTUALLY kill projectile instead
+../src/units/Projectile.cpp:		// TODO kill particle and remove node from render queue
+../src/units/Projectile.cpp:	// TODO: change x and z velocity components due to air friction (dented parabolic path)
+../src/units/Projectile.cpp:	// TODO: add wind speed to velocity (3-dimensional dented parabolic path)
+../src/units/Projectile.cpp:			// TODO self destruct
+../src/units/Projectile.cpp:			pTerrainHandler->createEditBrush(2); // set size of crater (TODO although this loads a new image file, which is dumb).
+../src/units/Projectile.cpp:			pTerrainHandler->createEditBrush(1); // set size of crater (TODO although this loads a new image file, which is dumb).
+../src/units/UnitHandler.h: TODO: if it gets a bit bigger split functionality into
+../src/units/UnitHandler.h:	// TODO: check_if_can_see(int from i to j)
+../src/units/Projectile.h:	bool mIsDead; // TODO TEMP var.
+../src/units/UnitHandler.cpp:	// TODO remove this line and make it dynamic (user-selected)
+../src/units/UnitHandler.cpp:				// TODO: indicate incapacitated crew
+../src/units/UnitHandler.cpp:					// TODO: 'follow' order
+../src/units/UnitHandler.cpp:					// TODO: add multiple-select check here ELSE:
+../src/units/UnitHandler.cpp:			// TODO-> IF _can_see(i to j) - may depend on type also {
+../src/units/UnitHandler.cpp:				// TODO: also get its velocity so that we can lead shots (only if not obscured)
+../src/units/UnitHandler.cpp:		// } TODO ELSE move towards last known pos of target {
+../src/units/UnitHandler.cpp:					// TODO: OR** just wait until it re-appears - depending on if 'seek and destroy' or 'defense' orders
+../src/units/UnitHandler.cpp:		// TODO: actually inform other managers
+../src/scenery/TerrainHandler.cpp:  // TODO: Load these details from scenario??
+../src/scenery/TerrainHandler.cpp:  // TODO: add fog shader for ETM when it's created
+../src/scenery/TerrainHandler.cpp:	// TODO: fix the warning that this causes in run-time
+../src/scenery/TerrainHandler.cpp:	// TODO: load this dynamicly from a master file with loadAllShrubDefs() func like for units
+../src/scenery/TerrainHandler.cpp:	// TODO Load Victory locations
+../src/scenery/TerrainHandler.cpp:	// TODO load force pools
+../src/scenery/TerrainHandler.cpp:	// TODO: return false if can not create files
+../src/scenery/TerrainHandler.cpp:	// TODO: check main register to see if already exists w/ that name (separate function).
+../src/scenery/TerrainHandler.cpp:	// TODO: save victory locations
+../src/scenery/TerrainHandler.cpp:	// TODO: save force pools
+../src/scenery/TerrainHandler.cpp:	mScenarioDetails.setTimeLimitMins(30); // TODO not specifiable yet (maybe within save GUI?)
+../src/scenery/TerrainHandler.cpp:	mScenarioDetails.setNumberOfForces(2); // TODO not specifiable yet (maybe within save GUI?)
+../src/scenery/TerrainHandler.cpp:	mScenarioDetails.setForceName(0, "US Marines"); // TODO not specifiable yet (maybe within save GUI?)
+../src/scenery/TerrainHandler.cpp:	mScenarioDetails.setForceName(1, "Bonsai!!"); // TODO not specifiable yet (maybe within save GUI?)
+../src/scenery/TerrainHandler.cpp:	mScenarioDetails.setForceCamPos(0, 495.0f, 232.0f, 109.0f); // TODO not specifiable yet (maybe as an object dropped by camera?)
+../src/scenery/TerrainHandler.cpp:	mScenarioDetails.setForceCamPos(1, 495.0f, 232.0f, 109.0f); // TODO not specifiable yet (maybe as an object dropped by camera?)
+../src/scenery/TerrainHandler.cpp:	// TODO: load these dynamically
+../src/scenery/TerrainHandler.cpp:			// TODO CHECK if deffile not in memory - load deffile
+../src/scenery/TerrainHandler.cpp:	// TODO: do this dynamically
+../src/scenery/TerrainHandler.cpp:	reBalanceShrubsNear(mPointer,300.0f);		// TODO: change the hardcoded 300m to something dynamic with brush size
+../src/scenery/TerrainHandler.cpp:	reBalanceBuildingsNear(mPointer,300.0f);		// TODO: change the hardcoded 300m to something dynamic with brush size
+../src/scenery/TerrainHandler.cpp:	return true;	// TODO: detect some errors
+../src/scenery/TerrainHandler.h:	 TODO specialise this class as just terrain management, put other stuff in other handlers, and create an overall scenery manager
+../src/ScenarioEditor.cpp:	// scan for sce files (TODO should really be when the button is clicked)
+../src/ScenarioEditor.cpp:// handle GUI button logic for editor TODO: widgetise - returns true if a button is clicked on
+../src/ScenarioEditor.cpp:			// TODO: add an "are you sure you want to quit" menu
+../src/ScenarioEditor.cpp:		// TODO - overwrite y/n? popup
+../src/ScenarioEditor.cpp:// TODO: put each edit mode in a subfunction
+../src/ScenarioEditor.cpp:						// TODO: catch too many shrubs (-4) and display info box instead
+../src/ScenarioEditor.cpp:						// TODO: catch too many bldgs (-4) and display info box instead
+../src/main.cpp:					// TODO GUI WINDOW HERE
+../src/main.cpp:					// TODO GUI WINDOW HERE
+../src/globals.h:// TODO: use math PI or OGRE PI
+../src/globals.h:			mOurForce = -1;	// start as an observer	// TODO change observers to '0'???
+../src/MarkIV.cpp:	if (!mTerrainHandler.initEditorScenery()) {	// TODO replace with initSimShrubs()
+../src/MarkIV.cpp:			break;	// TODO: add 'are you sure' dialogue
+../src/MarkIV.cpp:			break;	// TODO: add 'are you sure' dialogue
+../src/MarkIV.cpp:			// TODO: Upgrade the client menu system as per main menu system
+../src/MarkIV.cpp:			// TODO: add 'failed to connect' sequence here
+../src/MarkIV.cpp:				// TODO: are you sure that you want to quit? dialogue
+../src/MarkIV.cpp:	// TODO: update panels based on other players status
+../src/MarkIV.cpp:			// TODO: add an "are you sure you want to quit" menu
+../src/MarkIV.cpp:	// * TODO some sanity checks to make sure camera hasn't warped away
+../src/MarkIV.cpp:	// * TODO a 'reset camera' button (home?)
+../src/MarkIV.cpp:	// * TODO change 'fly' so they only affect height (not relative to camera rotation)
+../src/MarkIV.cpp:	// * TODO change arrow fwd so it moves fwd but keeps height
+../src/MarkIV.cpp:			// TODO maybe always keep camera at fixed height - only alter with flyup/flydwn
+../src/MarkIV.cpp:// TODO a moveCamTo(x,y,z) would be nice, especially for auto-balancing, but should be a sep camera wrapper class
+../src/FileScanner.cpp:	// TODO: add recursive element (will have to ignore directories with file reader)
+../src/FileScanner.cpp:	sprintf(tmp, "dir /b %s*%s > tmp.txt", subdir, extension);	// TODO check (not sure about slashes)
+../src/FileScanner.cpp:	system("del tmp.txt");	// TODO check

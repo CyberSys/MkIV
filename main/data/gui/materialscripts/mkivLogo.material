@@ -1,0 +1,17 @@
+material mkiv/LogoMat
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture tiger3.png
+			}
+		}
+	}
+}

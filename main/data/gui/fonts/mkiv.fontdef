@@ -1,0 +1,38 @@
+Armalite
+{
+	type 		truetype
+	source 		armalite.ttf
+	size 		32
+	resolution 	55
+}
+
+Gunplay
+{
+	type 		truetype
+	source 		gunplay.ttf
+	size 		32
+	resolution 	55
+}
+
+Gunplay3
+{
+	type 		truetype
+	source 		gunplay3.ttf
+	size 		32
+	resolution 	55
+}
+
+Deutsch
+{
+	type 		truetype
+	source 		Deutsch.ttf
+	size 		32
+	resolution 	55
+}
+Jedi
+{
+	type truetype
+	source Jedi.ttf
+	size 16
+	resolution 128
+}

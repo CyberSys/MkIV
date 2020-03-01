@@ -1,0 +1,7 @@
+ARTIST ~turbosquid
+DESIGNATION Outhouse
+NAME Outhouse
+MESH_FILE outhouse.mesh
+LENGTH_M 2.5
+WIDTH_M 2.5
+AUTO_SCALE 1

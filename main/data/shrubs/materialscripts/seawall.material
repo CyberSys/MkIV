@@ -1,0 +1,13 @@
+material SOLID/TEX/seawall.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture seawall.png
+			}
+		}
+	}
+}

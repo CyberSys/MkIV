@@ -1,0 +1,13 @@
+material SOLID/TEX/guyrobot.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture guyrobot.png
+			}
+		}
+	}
+}

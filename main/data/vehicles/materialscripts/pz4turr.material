@@ -1,0 +1,80 @@
+material material_0/SOLID/TEX/bunkerwall.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture bunkerwall.png
+			}
+		}
+	}
+}
+material material_4/SOLID/TEX/bunkerdoor.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture bunkerdoor.png
+			}
+		}
+	}
+}
+material material_6/SOLID/TEX/bunker-doormain.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.500000 0.500000 0.500000 125
+			texture_unit
+			{
+				texture bunker-doormain.png
+			}
+		}
+	}
+}
+material material_2/SOLID/TEX/bunkerwall.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture bunkerwall.png
+			}
+		}
+	}
+}
+material material_1/SOLID/TEX/bunkerwall.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture bunkerwall.png
+			}
+		}
+	}
+}
+material material_13/SOLID/TEX/mkivturret.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.500000 0.500000 0.500000 125
+			texture_unit
+			{
+				texture mkivturret.png
+			}
+		}
+	}
+}

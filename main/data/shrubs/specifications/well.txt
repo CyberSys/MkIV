@@ -1,0 +1,7 @@
+ARTIST ~turbosquid, mod. Anton Gerdelan
+DESIGNATION well
+NAME village well
+MESH_FILE well.mesh
+LENGTH_M 4.0
+WIDTH_M 4.0
+AUTO_SCALE 1

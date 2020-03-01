@@ -1,0 +1,82 @@
+material SOLID/TEX/t-28_rear.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture t-28_rear.png
+			}
+		}
+	}
+}
+material SOLID/TEX/t-28_wheels.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture t-28_wheels.png
+			}
+		}
+	}
+}
+material SOLID/TEX/t-28_tracks.png
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture t-28_tracks.png
+			}
+		}
+	}
+}
+material SOLID/TEX/t-28_skirts.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture t-28_skirts.png
+			}
+		}
+	}
+}
+material SOLID/TEX/t-28_top.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture t-28_top.png
+			}
+		}
+	}
+}
+material SOLID/TEX/t-28_turret.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.6 0.6 0.6 120
+			texture_unit
+			{
+				texture t-28_turret.png
+			}
+		}
+	}
+}

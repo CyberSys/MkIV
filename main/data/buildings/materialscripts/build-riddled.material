@@ -1,0 +1,16 @@
+material SOLID/TEX/house6a.png
+{
+	technique
+	{
+		pass
+		{
+			lighting on
+			diffuse 1 1 1
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture house6a.png
+			}
+		}
+	}
+}

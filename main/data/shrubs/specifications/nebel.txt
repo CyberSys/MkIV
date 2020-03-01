@@ -1,0 +1,8 @@
+ARTIST www.mrmof.com, mod. Anton Gerdelan
+POLYGONS 2216
+DESIGNATION 15 cm NbW 41
+NICKNAME 15cm Nebelwerfer 41
+MESH_FILE nebel.mesh
+LENGTH_M 3
+WIDTH_M 1.5
+AUTO_SCALE 1

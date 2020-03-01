@@ -1,0 +1,7 @@
+ARTIST Paged Geometry plugin
+DESIGNATION Bush
+NAME bush
+MESH_FILE Bush.mesh
+LENGTH_M 6.0
+WIDTH_M 6.0
+AUTO_SCALE 1

@@ -1,0 +1,14 @@
+material material_13/SOLID/TEX/wire.png
+{
+	technique
+	{
+		pass
+		{
+			specular 0.500000 0.500000 0.500000 125
+			texture_unit
+			{
+				texture wire.png
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+material blinn1SG/SOLID/TEX/house_diffuse.tga
+{
+	technique
+	{
+		pass
+		{
+		
+			texture_unit
+			{
+				texture house_diffuse.jpg
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+ARTIST ~turbosquid
+DESIGNATION barrel
+NAME barrel
+MESH_FILE barrel.mesh
+LENGTH_M 1.0
+WIDTH_M 1.0
+AUTO_SCALE 1

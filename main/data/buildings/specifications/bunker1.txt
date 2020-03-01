@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan
+DESIGNATION Large Pillbox
+NAME Large Concrete Pillbox
+MESH_FILE bunker1.mesh
+LENGTH_M 8.0
+WIDTH_M 8.0
+AUTO_SCALE 1

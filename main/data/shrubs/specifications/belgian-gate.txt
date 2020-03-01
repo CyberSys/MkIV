@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan
+DESIGNATION Belgian Gate
+NAME Belgian Gate Tank Obstacle
+MESH_FILE belgian-gate.mesh
+LENGTH_M 3.6
+WIDTH_M 3.6
+AUTO_SCALE 1

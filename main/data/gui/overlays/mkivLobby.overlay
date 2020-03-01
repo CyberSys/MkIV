@@ -1,0 +1,610 @@
+// Ogre overlay scripts
+mkiv/Lobby
+{
+	zorder 500
+	container BorderPanel(mkiv/LobbyTitlePanel)
+	{
+		metrics_mode pixels
+		vert_align top
+		horz_align left
+		left 5 
+		top 5
+		width 640
+		height 45
+		material mkiv/ChatBlockCenter
+		border_size 4 4 4 4
+		border_material Core/StatsBlockBorder
+		border_topleft_uv     0.0000 1.0000 0.0039 0.9961
+		border_top_uv         0.0039 1.0000 0.9961 0.9961
+		border_topright_uv    0.9961 1.0000 1.0000 0.9961
+		border_left_uv        0.0000 0.9961 0.0039 0.0039
+		border_right_uv       0.9961 0.9961 1.0000 0.0039
+		border_bottomleft_uv  0.0000 0.0039 0.0039 0.0000
+		border_bottom_uv      0.0039 0.0039 0.9961 0.0000
+		border_bottomright_uv 0.9961 0.0039 1.0000 0.0000
+
+		element TextArea(mkiv/LobbyTitleText)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 5
+			top 7
+			width 120
+			height 50
+			char_height 40
+			caption Scenario Title
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+			font_name Deutsch
+			colour_top 0.9 0.8 0.2
+			colour_bottom 0.9 0.8 0.2
+		}
+	}
+	container BorderPanel(mkiv/LobbyBlurbPanel)
+	{
+		metrics_mode pixels
+		vert_align top
+		horz_align left
+		left 5 
+		top 50
+		width 350
+		height 200
+		material Core/StatsBlockCenter
+		border_size 2 2 2 2
+		border_material Core/StatsBlockBorder
+		border_topleft_uv     0.0000 1.0000 0.0039 0.9961
+		border_top_uv         0.0039 1.0000 0.9961 0.9961
+		border_topright_uv    0.9961 1.0000 1.0000 0.9961
+		border_left_uv        0.0000 0.9961 0.0039 0.0039
+		border_right_uv       0.9961 0.9961 1.0000 0.0039
+		border_bottomleft_uv  0.0000 0.0039 0.0039 0.0000
+		border_bottom_uv      0.0039 0.0039 0.9961 0.0000
+		border_bottomright_uv 0.9961 0.0039 1.0000 0.0000
+
+		element TextArea(mkiv/LobbyBlurbText)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 10
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 20
+			caption This is a description of the scenario.
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+	container BorderPanel(mkiv/LobbyDetailsPanel)
+	{
+		metrics_mode pixels
+		vert_align top
+		horz_align left
+		left 5 
+		top 255
+		width 350
+		height 150
+		material Core/StatsBlockCenter
+		border_size 2 2 2 2
+		border_material Core/StatsBlockBorder
+		border_topleft_uv     0.0000 1.0000 0.0039 0.9961
+		border_top_uv         0.0039 1.0000 0.9961 0.9961
+		border_topright_uv    0.9961 1.0000 1.0000 0.9961
+		border_left_uv        0.0000 0.9961 0.0039 0.0039
+		border_right_uv       0.9961 0.9961 1.0000 0.0039
+		border_bottomleft_uv  0.0000 0.0039 0.0039 0.0000
+		border_bottom_uv      0.0039 0.0039 0.9961 0.0000
+		border_bottomright_uv 0.9961 0.0039 1.0000 0.0000
+
+		element TextArea(mkiv/LobbyDetailsText0)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 8
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 20
+			caption This is a detail about the scenario
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyDetailsText1)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 28
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 20
+			caption This is another detail about the scenario
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyDetailsText2)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 48
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 20
+			caption This is an exceptionally interesting detail
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyDetailsText3)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 68
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 20
+			caption Sandwhich
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyDetailsText4)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 88
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 20
+			caption The captain's hand
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyDetailsText5)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 108
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 20
+			caption They said he had nowhere to hide
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyDetailsText6)
+		{
+			metrics_mode pixels
+			vert_align top
+			horz_align left
+			left 10
+			top 128
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 20
+			caption Time Limit = 30 mins
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+	}
+	container BorderPanel(mkiv/ChangeScenarioButtonPanel)
+	{
+		metrics_mode pixels
+		vert_align top
+		horz_align left
+		left 5
+		top 410
+		width 150
+		height 30
+		material mkiv/ChatBlockCenter
+		border_size 2 2 2 2
+		border_material Core/StatsBlockBorder
+		border_topleft_uv     0.0000 1.0000 0.0039 0.9961
+		border_top_uv         0.0039 1.0000 0.9961 0.9961
+		border_topright_uv    0.9961 1.0000 1.0000 0.9961
+		border_left_uv        0.0000 0.9961 0.0039 0.0039
+		border_right_uv       0.9961 0.9961 1.0000 0.0039
+		border_bottomleft_uv  0.0000 0.0039 0.0039 0.0000
+		border_bottom_uv      0.0039 0.0039 0.9961 0.0000
+		border_bottomright_uv 0.9961 0.0039 1.0000 0.0000
+
+		element TextArea(mkiv/ChangeScenarioButtonText)
+		{
+			metrics_mode pixels
+			vert_align center
+			horz_align left
+			left 5
+			top -10
+			width 120
+			height 50
+			font_name Gunplay
+			char_height 20
+			caption Choose Scenario...
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+	container TextArea(mkiv/ReadyCountText)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		horz_align right
+		left -175
+		top -95
+		width 200
+		height 30
+		font_name BlueHighway
+		char_height 20
+		caption 0 / 0 Players Ready
+		colour_top 1 1 0.7
+		colour_bottom 1 1 0.7
+	}
+	container TextArea(mkiv/MeReadyText)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		horz_align right
+		left -175
+		top -115
+		width 200
+		height 30
+		font_name BlueHighway
+		char_height 20
+		caption We are NOT ready
+		colour_top 1 1 1
+		colour_bottom 1 1 0.7
+	}
+	container BorderPanel(mkiv/ReadyButtonPanel)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		horz_align right
+		left -125 
+		top -70
+		width 120
+		height 30
+		material mkiv/ChatBlockCenter
+		border_size 2 2 2 2
+		border_material Core/StatsBlockBorder
+		border_topleft_uv     0.0000 1.0000 0.0039 0.9961
+		border_top_uv         0.0039 1.0000 0.9961 0.9961
+		border_topright_uv    0.9961 1.0000 1.0000 0.9961
+		border_left_uv        0.0000 0.9961 0.0039 0.0039
+		border_right_uv       0.9961 0.9961 1.0000 0.0039
+		border_bottomleft_uv  0.0000 0.0039 0.0039 0.0000
+		border_bottom_uv      0.0039 0.0039 0.9961 0.0000
+		border_bottomright_uv 0.9961 0.0039 1.0000 0.0000
+
+		element TextArea(mkiv/ReadyButtonText)
+		{
+			metrics_mode pixels
+			vert_align center
+			horz_align center
+			left -22
+			top -10
+			width 120
+			height 50
+			font_name Gunplay
+			char_height 20
+			caption Ready
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+	container BorderPanel(mkiv/StartButtonPanel)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		horz_align right
+		left -125 
+		top -35
+		width 120
+		height 30
+		material mkiv/ChatBlockCenter
+		border_size 2 2 2 2
+		border_material Core/StatsBlockBorder
+		border_topleft_uv     0.0000 1.0000 0.0039 0.9961
+		border_top_uv         0.0039 1.0000 0.9961 0.9961
+		border_topright_uv    0.9961 1.0000 1.0000 0.9961
+		border_left_uv        0.0000 0.9961 0.0039 0.0039
+		border_right_uv       0.9961 0.9961 1.0000 0.0039
+		border_bottomleft_uv  0.0000 0.0039 0.0039 0.0000
+		border_bottom_uv      0.0039 0.0039 0.9961 0.0000
+		border_bottomright_uv 0.9961 0.0039 1.0000 0.0000
+
+		element TextArea(mkiv/StartButtonText)
+		{
+			metrics_mode pixels
+			vert_align center
+			horz_align center
+			left -17
+			top -10
+			width 120
+			height 50
+			font_name Gunplay
+			char_height 20
+			caption Start
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+	container BorderPanel(mkiv/LobbyShield0)
+	{
+		metrics_mode pixels
+		vert_align top
+		horz_align right
+		left -115 
+		top 100
+		width 100
+		height 100
+		material mkiv/EyeOfRa
+
+		element TextArea(mkiv/LobbyShieldText0)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 10
+			top 0
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Observers
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyShield0Player0)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 15
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Dave
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield0Player1)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 30
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption That 'Gail' Cat
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield0Player2)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 45
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Doris
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield0Player3)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 60
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Treedog
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+	container BorderPanel(mkiv/LobbyShield1)
+	{
+		metrics_mode pixels
+		vert_align top
+		horz_align right
+		left -230 
+		top 100
+		width 100
+		height 100
+		material mkiv/1stSSShield
+
+		element TextArea(mkiv/LobbyShieldText1)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 10
+			top 0
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption 1st SS LAH
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyShield1Player0)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 15
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Anton
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield1Player1)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 30
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Brue Campbell
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield1Player2)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 45
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Doris
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield1Player3)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 60
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Treedog
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+	container BorderPanel(mkiv/LobbyShield2)
+	{
+		metrics_mode pixels
+		vert_align top
+		horz_align right
+		left -345 
+		top 100
+		width 100
+		height 100
+		material mkiv/82ndAB
+
+		element TextArea(mkiv/LobbyShieldText2)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 10
+			top 0
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption 82nd Airborne
+			colour_top 1 1 0.7
+			colour_bottom 1 1 0.7
+		}
+		element TextArea(mkiv/LobbyShield2Player0)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 15
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Mike
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield2Player1)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 30
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Necksausages
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield2Player2)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 45
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Doris
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+		element TextArea(mkiv/LobbyShield2Player3)
+		{
+			metrics_mode pixels
+			vert_align bottom
+			horz_align left
+			left 0
+			top 60
+			width 120
+			height 50
+			font_name BlueHighway
+			char_height 15
+			caption Treedog
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+} 

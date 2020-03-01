@@ -1,0 +1,8 @@
+ARTIST www.mrmof.com, mod. Anton Gerdelan
+POLYGONS 400
+DESIGNATION Hedgehog 2
+NAME Czech Hedgehog Tank Obstacle
+MESH_FILE hog2.mesh
+LENGTH_M 4.5
+WIDTH_M 4.5
+AUTO_SCALE 1

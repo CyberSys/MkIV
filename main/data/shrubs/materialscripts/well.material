@@ -1,0 +1,65 @@
+
+material wellroof
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture SHING1.JPG
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material wellwood0
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wellwood.png
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material wellwood1
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture wellwood.png
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+material wellstone
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture LIMESTO3.JPG
+				tex_address_mode wrap
+			}
+		}
+	}
+}

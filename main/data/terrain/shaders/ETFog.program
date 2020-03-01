@@ -1,0 +1,15 @@
+vertex_program ET/Programs/VSFog cg
+{
+   source ETFog.cg
+   entry_point ETFog_VS
+   profiles vs_1_1 arbvp1
+   
+   default_params
+   {
+      param_named_auto morphFactor custom 77
+      param_named_auto worldViewProj worldviewproj_matrix
+      param_named_auto fogColour fog_colour
+      param_named_auto fogParams fog_params
+      param_named_auto camPos camera_position_object_space
+   }
+}

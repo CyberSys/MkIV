@@ -1,0 +1,13 @@
+input params(logfile, L count of run particles, outsummaryfile)
+check for lock file (written by either this or by simulation)
+ if lock exists then abort
+ else write lock
+open given log file
+ read all lines   
+  when at L samples
+    sum,
+    average,
+    stderr,
+    append to outsummaryfile
+close file
+delete lock file

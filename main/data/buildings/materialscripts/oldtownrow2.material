@@ -1,0 +1,300 @@
+material wall028/SOLID/TEX/wall028.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall028.jpg
+			}
+		}
+	}
+}
+material wall022o/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.439216 0.403922 0.388235
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall022o/SOLID/TEX/wall022o.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.439216 0.403922 0.388235
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall022o.jpg
+			}
+		}
+	}
+}
+material wall021/SOLID/TEX/wall021.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.458824 0.423529 0.400000
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall021.jpg
+			}
+		}
+	}
+}
+material strecha_003_256/SOLID/TEX/strecha_003_256.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.494118 0.490196 0.486275
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture strecha_003_256.jpg
+			}
+		}
+	}
+}
+material strecha_004_256/SOLID/TEX/strecha_004_256.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.474510 0.364706 0.341176
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture strecha_004_256.jpg
+			}
+		}
+	}
+}
+material Material4/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.345098 0.333333 0.325490
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall029/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.666667 0.619608 0.576471
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material Material2/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.458824 0.447059 0.450980
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material Material2/SOLID/TEX/Material2.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.458824 0.447059 0.450980
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material2.jpg
+			}
+		}
+	}
+}
+material Material4/SOLID/TEX/Material4.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.345098 0.333333 0.325490
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Material4.jpg
+			}
+		}
+	}
+}
+material wall028/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material Gwall016/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.627451 0.498039 0.470588
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall029/SOLID/TEX/wall029.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.666667 0.619608 0.576471
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall029.jpg
+			}
+		}
+	}
+}
+material wall030/SOLID/TEX/wall030.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.474510 0.474510 0.462745
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall030.jpg
+			}
+		}
+	}
+}
+material wall018_256/SOLID/TEX/wall018_256.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.713725 0.698039 0.666667
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall018_256.jpg
+			}
+		}
+	}
+}
+material Gwall016/SOLID/TEX/Gwall016.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.627451 0.498039 0.470588
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture Gwall016.jpg
+			}
+		}
+	}
+}
+material wall021/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.458824 0.423529 0.400000
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall027/SOLID/TEX/wall027.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.521569 0.521569 0.513725
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall027.jpg
+			}
+		}
+	}
+}
+material wall031/SOLID/TEX/wall031.jpg
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.450980 0.450980 0.450980
+			specular 0.4 0.4 0.4 60
+			texture_unit
+			{
+				texture wall031.jpg
+			}
+		}
+	}
+}

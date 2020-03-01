@@ -1,0 +1,7 @@
+ARTIST ~turbosquid
+DESIGNATION crate
+NAME goods crate
+MESH_FILE crate.mesh
+LENGTH_M 1.5
+WIDTH_M 1.5
+AUTO_SCALE 1

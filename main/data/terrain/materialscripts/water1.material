@@ -1,0 +1,22 @@
+material water1
+{
+	// ps_2_0 / arbfp1
+	technique
+	{
+		pass
+    {
+      specular 0.75 0.75 0.75 20
+      //lighting off
+      scene_blend alpha_blend
+			depth_write off
+      texture_unit
+      {
+       
+				texture water2-15.png
+				scroll_anim -0.01 -0.02
+        scale 0.3 0.3
+
+      }
+    }
+	} 
+}

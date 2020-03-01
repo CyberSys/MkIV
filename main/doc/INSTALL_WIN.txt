@@ -1,0 +1,68 @@
+Here are instructions for compilation and installation
+
+Compiling from Source on Windows
+
+1. Download and Install subversion client (e.g. Tortoise SVN)
+2. Check out markiv from subversion repository "https://markiv.svn.sourceforge.net/svnroot/markiv/trunk/main"
+3. Download and install MinGW (NOTE: no longer using Ogre's mingw toolkit) from http://www.mingw.org/
+4. Set up Windows environment variables for mingw (add 'c:\mingw\bin' to Path)
+5. Download and install OGRE SDK for MinGW http://www.ogre3d.org/
+6. Download and install FMOD Ex Windows API http://www.fmod.org/
+7. Download ETM source http://www.oddbeat.de/wiki/etm
+8. Download and install (extract somewhere) RakNet http://www.jenkinssoftware.com/
+9. Download and install Eclipse IDE for C++ http://www.eclipse.org/
+   Change the C++ compiler to 'mingw32-g++'
+   Change the make executable to 'mingw32-make' (if it won't let you don't worry - it's not stricty necessary)
+10. Create a new Eclipse project (or you can use another IDE and follow a similar set up)
+    The project type should be (you may have to uncheck a box to see all types) "C++ executable" with an automatically managed makefile
+    Copy the main 'markiv' directory contents to project folder, excluding 'Release'
+    Under 'Project Properties'->'C/C++ Build':
+      Under 'Directories' add the following to 'Include paths (-I):
+        "...\OgreSDK\include\OIS"
+        "...\OgreSDK\include"
+        "...\FMOD Programmers API...\api\inc"
+      Under 'Libraries' add the following to 'Libraries (-l)':
+        "OgreMain"
+        "fmodex"
+        "OIS"
+        "ws2_32"
+      Under 'Libraries' add the following to 'Library search path (-L)'
+        "...\OgreSDK\bin\release"
+        "...\FMODSoundSystem....\api\lib"
+11. Copy all the .cpp files from the 'src' folder in the ETM download into markiv/src/scenery (makes it easier to link)
+12. Copy the following libraries into the project main directory:
+  mingwm10.dll (from mingw install)
+  fmodex.dll (from FMOD)
+  cg.dll (from Ogre)
+  OgreMain.dll (from Ogre)
+  OIS.dll (from Ogre)
+  Plugin_CgProgramManager.dll (from Ogre)
+  Plugin_OctreeSceneManager.dll (from Ogre)
+  Plugin_ParticleFX.dll (from Ogre)
+  RenderSystem_GL.dll (from Ogre)
+  RakNet.dll (from RakNet)
+  RakNetDebug.dll (from RakNet)
+13. Modify Plugins.cfg
+  # Defines plugins to load
+
+  # Define plugin folder
+  PluginFolder=.\
+
+  # Define D3D rendering implementation plugin
+  Plugin=RenderSystem_GL.dll
+  Plugin=Plugin_ParticleFX.dll
+  Plugin=Plugin_OctreeSceneManager.dll
+  Plugin=Plugin_CgProgramManager.dll
+
+14. Compile and run program from with the IDE
+15. Copy 'markiv.exe' from 'markiv\Release' into 'markiv'
+
+Troubleshooting
+
+There are always little problems compiling on Windows.
+* Make sure that mingw32-g++ is the compiler being used by the IDE, and not something else
+* You may have to fix relative #include paths in some source files (particularly ETM/.h files)
+* Make sure that the path to mingwm10.dll is in the library search path (-L)
+* I have had some problems with Windows not using the correct ws2_32.dll (Winsock) library
+* exclude some of the source files from build (in src/ai/ take out AStar.* and *test.*)
+

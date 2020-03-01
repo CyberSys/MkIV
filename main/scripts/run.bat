@@ -1,0 +1,1 @@
+markiv.exe > log.txt

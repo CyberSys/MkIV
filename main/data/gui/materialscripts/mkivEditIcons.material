@@ -1,0 +1,679 @@
+material mkiv/icon_water
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_water_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_water_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_water_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_num1
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_num1_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_num1_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_num1_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_num2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_num2_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_num2_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_num2_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_single_tree
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_singletree_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_single_tree_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_singletree_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_copse
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_copse_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_copse_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_copse_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_forest
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_forest_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_forest_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_forest_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_small
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_small_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_small_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_small_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_med
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_med_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_med_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_med_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_large
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_large_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_large_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_large_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_select
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_arrow_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_select_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_arrow_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_deform
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_hill_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_deform_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_hill_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_paint
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_paint_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_paint_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_paint_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_plant
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_tree_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_plant_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_tree_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_building
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_house_sg.png
+			}
+		}
+	}
+}
+material mkiv/icon_building_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_house_sg_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_x
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_x_red.png
+			}
+		}
+	}
+}
+material mkiv/icon_x_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_x_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_load
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_load.jpg
+			}
+		}
+	}
+}
+material mkiv/icon_load_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_load.jpg
+			}
+		}
+	}
+}
+material mkiv/icon_save
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_save.jpg
+			}
+		}
+	}
+}
+material mkiv/icon_save_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_save.jpg
+			}
+		}
+	}
+}material mkiv/icon_flag
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_flag_red.png
+			}
+		}
+	}
+}
+material mkiv/icon_flag_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_flag_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_tank
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_tank.png
+			}
+		}
+	}
+}
+material mkiv/icon_tank_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_tank_yell.png
+			}
+		}
+	}
+}
+material mkiv/icon_camera
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_camera.png
+			}
+		}
+	}
+}
+material mkiv/icon_camera_yell
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+
+			texture_unit
+			{
+				texture icon_camera_yell.png
+			}
+		}
+	}
+}

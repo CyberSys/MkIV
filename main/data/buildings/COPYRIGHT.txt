@@ -1,0 +1,3 @@
+build-riddled - Anton Gerdelan 2009, textures from http://www.juniorgeneral.org/
+CountryHouse - Anton Gerdelan 2007
+tudorhouse - stock model from OGRE3D library (www.ogre3d.org)

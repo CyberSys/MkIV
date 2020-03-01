@@ -1,0 +1,7 @@
+ARTIST Anton Gerdelan, tex. http://www.juniorgeneral.org/
+DESIGNATION 3-Level Building
+NAME Bullet-Riddled Building
+MESH_FILE build-riddled.mesh
+LENGTH_M 10.0
+WIDTH_M 10.0
+AUTO_SCALE 1

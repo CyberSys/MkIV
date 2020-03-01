@@ -1,0 +1,28 @@
+material fountainwater/SOLID/TEX/marble.jpg
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture marble.jpg
+			}
+		}
+	}
+}
+material fountainwater/SOLID/TEX/watertex.jpg
+{
+	technique
+	{
+		pass
+		{
+			specular 0.75 0.75 0.75 20
+      texture_unit
+      {
+				texture watertex.jpg
+			}
+		}
+	}
+}

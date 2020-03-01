@@ -1,0 +1,29 @@
+=='A' Bugs (Prevent Operation)==
+
+* latest svn co does not include some required ai files - why can't we disable the GA?
+* unit handler is not freed after running a scenario. if you load editor after this it keeps old units
+* GFS keeps running between launches and crashes on second sim launch
+* water doesn't load/save properly
+
+=='B' Bugs (Don't Ruin Flow)==
+
+* time loops around after 60 minutes
+* line graphs in fuzzy overlays choke after about an hour of running as too many points are added to line. really need to reset these lines at that point.
+* units that start 1000m above group (to fix ships problem) are not properly positioned in memory.
+* m4a2 is missing gun pivot bone?
+* sometimes attack indicator line turns off - lots of 3d lines problems in fact (maybe replace manual objects with 3D objects of varying colour put above NN)
+* water level rises/falls to dramatic levels if the clock skips a few frames; it needs a check to see if it has moved OOB.
+
+=='C' Bugs (Cosmetic)==
+* font's not showing on buttons...
+* cannon aim only happens after first shot
+* cannon aim angle isn't very good
+* in editor valleys (RMB) can create even when mouse is over buttons
+* shadows darken after first node moved
+* widgets are sometimes blocked by lines/other widgets/shadows
+* if quit via game score board then debug gui stays on (maybe 'Ok' should just close scores)
+* smoke particle effects upset by other transparency (water etc) -> put paged geometry on render queue MAIN
+
+==Hacks==
+* Gun animation rotation hack
+* Pull out static declarations and temporary gun rotations from animation.

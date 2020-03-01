@@ -1,0 +1,8 @@
+ARTIST www.mrmof.com, mod. Anton Gerdelan
+POLYGONS 230
+DESIGNATION trench fence
+NAME wooden fence
+MESH_FILE trenchfence.mesh
+LENGTH_M 1.0
+WIDTH_M 5.0
+AUTO_SCALE 1

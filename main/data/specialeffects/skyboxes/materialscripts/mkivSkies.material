@@ -1,0 +1,35 @@
+material mkiv/SkySnowFirs
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture frontsnowe.jpg backsnowe.jpg leftsnowe.jpg rightsnowe.jpg topsnowe.jpg topsnowe.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material Examples/CloudyNoonSkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+
+			texture_unit
+			{
+				cubic_texture cloudy_noon_FR.jpg cloudy_noon_BK.jpg cloudy_noon_LF.jpg cloudy_noon_RT.jpg cloudy_noon_UP.jpg cloudy_noon_DN.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
